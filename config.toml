@@ -1,3 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.pollen-robotics.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Pollen Robotics"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "sitemap", "RSS"]
+
+[params]
+description = "Site description"
