@@ -27,6 +27,7 @@ script:
 deploy:
   provider: pages:git
   edge: true
+  local_dir: public
   on:
     repo: pollen-robotics/website
     branch: master
