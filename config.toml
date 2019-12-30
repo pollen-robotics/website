@@ -4,4 +4,5 @@ title = "Pollen Robotics"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "sitemap", "RSS"]
 
 [params]
-description = "Site description"
+description = "Pollen Robotics site description"
+brand = "Pollen Robotics"

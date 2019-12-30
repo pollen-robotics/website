@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ partial "topbar.html" . }}
+
+<main class="page-content">
+
+  <div class="hero container-fluid">
+    <header class="row flex-xl-nowrap">
+      <h1 class="col text-center">
+        <span class="preamble">
+          Hello, I'm Reachy!
+        </span>
+
+        Interactive &amp; Open Source Humanoid Robot</h1>
+    </header>
+  </div>
+
+  <div class="video-presentation">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5XNyY5D7h04" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <p>Reachy punchline</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="usages">
+    {{ partial "index/usages.html" .}}
+  </div>
+
+  <div class="features">
+    {{ partial "index/features.html" }}
+  </div>
+</main>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
