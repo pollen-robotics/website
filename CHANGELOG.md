@@ -12,3 +12,4 @@ and this project adheres to
 
 - Website scaffold
 - Code formatters and linters configurations
+- Travis CI configuration
