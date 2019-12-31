@@ -1,5 +1,5 @@
 .site-nav {
-  box-shadow: 0 2px 2px rgba(13, 13, 13, 0.15);
+  box-shadow: 0 2px 2px rgba(10, 10, 10, 0.15);
 }
 
 .site-logo {
@@ -27,3 +27,60 @@
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.header_bg {
+  /* The image used */
+  background-image: url('../img/reachy_header_section.jpg');
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* .container {
+  max-width: 960px;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+} */
+
+
+ 
