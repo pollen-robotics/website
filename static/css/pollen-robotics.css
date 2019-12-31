@@ -16,6 +16,7 @@
 }
 
 .hero,
+.buy-form,
 .video-presentation,
 .usages,
 .features {
@@ -36,7 +37,7 @@
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 @media (min-width: 40em) {
@@ -51,7 +52,9 @@
   }
 }
 
-.overflow-hidden { overflow: hidden; }
+.overflow-hidden {
+  overflow: hidden;
+}
 
 .header_bg {
   /* The image used */
@@ -61,7 +64,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 /* .container {
@@ -81,6 +83,3 @@
   color: #fff;
   text-decoration: none;
 } */
-
-
- 
