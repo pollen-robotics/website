@@ -23,3 +23,17 @@
 </div>
 
 {{ end }}
+
+{{ define "custom-scripts" }}
+<script>
+  (function () {
+    const sel = document.getElementById('reachyConfig');
+    const imgRoot = "{{ "img/buy/" | relURL }}";
+
+    sel.addEventListener('change', function () {
+      const img = document.getElementById('reachy-config-img');
+      img.src = `${imgRoot}${this.value}.png`;
+    })
+  }());
+</script>
+{{ end }}
