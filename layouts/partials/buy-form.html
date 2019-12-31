@@ -1,22 +1,22 @@
 <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-sm-6">
-            <form>
+            <form action="https://formspree.io/xgeorwgq" method="POST">
                 <div class="form-group">
                     <label>Your name</label>
                     <div class="row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="First name">
+                            <input type="text" class="form-control" placeholder="First name" name="firstName">
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <input type="text" class="form-control" placeholder="Last name" name="lastName">
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label>Email address</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" name="email">
                 </div>
 
                 <div class="form-group">
@@ -26,7 +26,7 @@
 
                 <div class="form-group">
                     <label for="reachyConfig">Configure your Reachy</label>
-                    <select id="reachyConfig" class="form-control">
+                    <select id="reachyConfig" class="form-control" name="kit">
                         <optgroup label="Reachy">
                             <option>Reachy basic kit - single arm (7990€)</option>
                             <option selected>Reachy expressive kit - single arm (9990€)</option>
@@ -58,13 +58,13 @@
 
                 <div class="form-group">
                     <label>Any specific needs, let us know what you would like.</label>
-                    <textarea class="form-control" rows="3"></textarea>
+                    <textarea class="form-control" rows="3" name="specifics"></textarea>
                 </div>
 
                 <div class="form-group">
                     <label>Tell us more about your application (this will help us better advise you with what you really
                         need).</label>
-                    <textarea class="form-control" rows="3"></textarea>
+                    <textarea class="form-control" rows="3" name="usecase"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit your request</button>
