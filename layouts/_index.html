@@ -4,23 +4,36 @@
 
 <main class="page-content">
 
-  <div class="container-fluid header_bg">
-    <div class="position-relative overflow-hidden p-md-5 text-center">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="text-white display-3 font-weight-normal">Meet Reachy!</h1>
-        <p class="text-white lead font-weight-bold">Open source interactive robot to explore real-world applications!
-        </p>
-        <button type="button" class="btn btn-light btn-lg" href="#">Discover</button>
-        <button type="button" class="btn btn-dark btn-lg" href="/buy">Pre-order</button>
+  <header class="index_header container-fluid">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted">
+      <source src="{{ "video/reachyflowers.mp4" | relURL }}" type="video/mp4">
+    </video>
+    <div class="container-fluid">
+      <div class="col-md-6 p-lg-5 mx-5 my-5">
+          <h1 class="display-2 text-white">Hello I'm Reachy!</h1>
+          <h2 class="text-white">Open source interactive robot to explore real-world applications!</h2>
+          <a class="btn btn-light btn-lg" href="#discover" role="button">Meet Reachy</a>
       </div>
     </div>
-  </div>
+  </header>
 
-  <div class="container-fluid text-center">
+  <!-- <div class="container-fluid header_bg">
+    <div class="position-relative overflow-hidden p-md-5">
+      <div class="col-md-6 p-lg-5 mx-5 my-5">
+        <h1 class="text-white display-2 font-weight-normal">Hello I'm Reachy!</h1>
+        <h2 class="text-white">Open source interactive robot to explore real-world applications!
+        </h2>
+        <a class="btn btn-light btn-lg" href="#discover" role="button">Meet Reachy</a>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container-fluid text-center" id="discover">
     <div class="position-relative overflow-hidden p-md-5 text-center">
       <h2 class="display-4">A unique open prototyping platform</h2>
       <p class="lead">Reachy makes AI & robotics accessible to researchers, innovation professionals and creatives.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_OqKfFv8dyo" frameborder="0"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AQAZu9pE6I0" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
@@ -29,9 +42,23 @@
     {{ partial "index/usages.html" .}}
   </div>
 
+  <div class="container-fluid buy_CTA">
+    <div class="position-relative overflow-hidden text-center">
+      <div class="col-md-5 mx-auto my-5">
+        <h3 class="display-4 font-weight-bold text-white">Be a pioneer</h3>
+        <h4 class="display-5 text-white font-weight-light">Kickstart your interactive application now!
+        </h4>
+        <a class="btn btn-light btn-lg" href="/buy" role="button">Pre-order now</a>
+
+      </div>
+    </div>
+  </div>
+
   <div class="features">
     {{ partial "index/features.html" }}
   </div>
+
+  {{ partial "index/packages.html" .}}
 
 </main>
 
