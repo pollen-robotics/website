@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "topbar.html" . }}
+
+<main class="page-content">
+
+  <div class="container-fluid community_bg">
+    <div class="position-relative overflow-hidden p-md-5 text-center">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="text-white display-3 font-weight-normal">Join our community!</h1>
+        <p class="text-white lead">We are building interactive robot for the real world !
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center">
+    <div class="position-relative overflow-hidden p-md-5 text-center">
+      <h2 class="display-4">A unique open prototyping platform</h2>
+      <p class="lead">Reachy makes AI & robotics accessible to researchers, innovation professionals and creatives.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AQAZu9pE6I0" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  
+</main>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
