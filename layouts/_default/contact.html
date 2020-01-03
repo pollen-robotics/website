@@ -1,0 +1,91 @@
+{{ define "main" }} {{ partial "topbar.html" . }}
+
+<main class="page-content">
+  <div class="hero container-fluid">
+    <header class="row flex-xl-nowrap">
+      <h1 class="col text-center">Contact us</h1>
+    </header>
+
+    <h6 class="col text-center lead">
+        Fill the form below to let us know about your project. 
+        <br />
+        We’ll contact you as soon as possible.
+    </h6>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-sm-6">
+          <form action="https://formspree.io/mnqjrpqo" method="POST">
+            <div class="form-group">
+              <label>Name</label>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="E-mail"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Your Message</label>
+                <textarea
+                  class="form-control"
+                  rows="10"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <hr />
+      </div>
+      <div class="row">
+        <h5 class="col text-center">
+            Pollen Robotics SAS
+        </h5>
+      </div>
+      <div class="row">
+        <h5 class="col text-center lead">
+            49 rue Borie, 33300 Bordeaux,
+            France
+        </h5>
+      </div>
+      <div class="logo-container text-center">
+        <img
+          title="Pollen Robotics"
+          alt="Pollen Robotics"
+          src="/img/logo_pollen_nav.png"
+          class="logo"
+        />
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
