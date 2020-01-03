@@ -102,6 +102,10 @@
   background: #5AADAA;
 }
 
+.btn-primary:active{
+  background: #5AADAA;
+}
+
 header .btn {
   margin-top: 2rem;
 }
@@ -111,6 +115,10 @@ header .btn {
   margin: 5rem 0;
 }
 
+.grey_CTA{
+  background-color:#F2F2F2;
+  margin: 5rem 0;
+}
 
 /* .container {
   max-width: 960px;
