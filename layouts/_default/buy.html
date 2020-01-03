@@ -4,10 +4,12 @@
 
 <main class="page-content">
 
-  <div class="hero container-fluid">
-    <header class="row flex-xl-nowrap">
-      <h1 class="col text-center">Pre-order your own Reachy now!</h1>
-    </header>
+  <div class="container-fluid grey_CTA">
+    <div class="position-relative overflow-hidden text-center">
+      <div class="col-md-8 mx-auto my-5">
+        <h1 class="display-4">Pre-order your Reachy now!</h1>
+      </div>
+    </div>
   </div>
 
   <div class="buy-form">
@@ -34,7 +36,7 @@
 
     sel.addEventListener('change', function () {
       const img = document.getElementById('reachy-config-img');
-      img.src = `${imgRoot}${this.value}.png`;
+      img.src = `${imgRoot}${this.value}.jpg`;
     })
   }());
 </script>
