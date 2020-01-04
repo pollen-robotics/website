@@ -46,9 +46,9 @@
     <div class="position-relative overflow-hidden text-center">
       <div class="col-md-5 mx-auto my-5">
         <h3 class="display-4 font-weight-bold text-white">Be a pioneer</h3>
-        <h4 class="display-5 text-white font-weight-light">Kickstart your interactive application now!
+        <h4 class="display-5 text-white font-weight-light">Take Reachy into real world applications now!
         </h4>
-        <a class="btn btn-light btn-lg" href="/buy" role="button">Pre-order now</a>
+        <a class="btn btn-light btn-lg" href="/buy" role="button">Pre-order</a>
 
       </div>
     </div>
@@ -59,6 +59,22 @@
   </div>
 
   {{ partial "index/packages.html" .}}
+
+  <div class="container">
+    <hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Still curious?<span class="text-muted"> Check our product presentation & press release for more details!</span></h2>
+      <a class="btn btn-outline-primary btn-lg" href="{{ "document/meet_reachy_dec_19.pdf" | relURL }}" role="button">Product presentation</a>
+      <a class="btn btn-outline-dark btn-lg" href="https://drive.google.com/drive/folders/1jyNy5e5y1v52owvHZG_iiAlXqIk534CK?usp=sharing" role="button">Press Release</a>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img class="featurette-image img-fluid mx-auto" src="{{ "img/reachy_presentation.png" | relURL }}"
+        alt="Generic placeholder image">
+    </div>
+  </div>
+  <hr class="featurette-divider">
+</div>
 
 </main>
 
