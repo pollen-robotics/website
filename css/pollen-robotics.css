@@ -122,8 +122,15 @@ header .btn {
 
 .buy_CTA{
   background-color: #77BBB9;
-  margin: 5rem 0;
+  /* margin: 5rem 0; */
 }
+
+.press{
+  background-color:#F7F7F7;
+  margin-top: 2rem;
+  padding: 3rem 0;
+}
+
 
 .grey_CTA{
   background-color:#F2F2F2;
