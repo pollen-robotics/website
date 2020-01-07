@@ -67,6 +67,16 @@
   height: 55vw;
 }
 
+.ces_bg {
+  /* The image used */
+  background-image: url('../img/reachy_header_section.jpg');
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .community_bg {
  
   /* The image used */
