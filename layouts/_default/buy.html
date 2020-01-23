@@ -45,4 +45,15 @@
     })
   }());
 </script>
+<script>
+  (function () {
+    const subject = document.getElementById('_cesPreOrderSubject');
+    const nameInput = document.getElementById('nameCESPreOrderInput');
+
+    nameInput.addEventListener('change', function () {
+      const msg = `New submission from ${nameInput.value} on CES pre-order form!`;
+      subject.value = msg;
+    })
+  }());
+</script>
 {{ end }}

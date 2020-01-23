@@ -34,6 +34,7 @@
         <form action="https://formspree.io/xjvgnvgw" method="POST">
           <div class="form-group">
             <label>Name</label>
+            <input type="hidden" name="_subject" id="_cesSubject" value="New submission!" />
             <div class="row">
               <div class="col">
                 <input
@@ -41,6 +42,7 @@
                   class="form-control"
                   placeholder="Name"
                   name="name"
+                  id="nameCESInput"
                   required
                 />
               </div>
@@ -110,4 +112,18 @@
   </div>
 </div>
 
+{{ end }}
+
+{{ define "custom-scripts" }}
+<script>
+  (function () {
+    const subject = document.getElementById('_cesSubject');
+    const nameInput = document.getElementById('nameCESInput');
+
+    nameInput.addEventListener('change', function () {
+      const msg = `New submission from ${nameInput.value} on CES form!`;
+      subject.value = msg;
+    })
+  }());
+</script>
 {{ end }}

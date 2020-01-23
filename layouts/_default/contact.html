@@ -18,6 +18,7 @@
           <form action="https://formspree.io/mnqjrpqo" method="POST">
             <div class="form-group">
               <label>Name</label>
+              <input type="hidden" name="_subject" id="_contactSubject" value="New submission!" />
               <div class="row">
                 <div class="col">
                   <input
@@ -25,6 +26,7 @@
                     class="form-control"
                     placeholder="Name"
                     name="name"
+                    id="nameContactInput"
                     required
                   />
                 </div>
@@ -88,4 +90,18 @@
   </div>
 </div>
 
+{{ end }}
+
+{{ define "custom-scripts" }}
+<script>
+  (function () {
+    const subject = document.getElementById('_contactSubject');
+    const nameInput = document.getElementById('nameContactInput');
+
+    nameInput.addEventListener('change', function () {
+      const msg = `New submission from ${nameInput.value} on Contact form!`;
+      subject.value = msg;
+    })
+  }());
+</script>
 {{ end }}
