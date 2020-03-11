@@ -88,7 +88,16 @@
   background-size: cover;
 }
 
+.aboutpollen_bg {
+ 
+  /* The image used */
+  background-image: url('../img/pollenteam.png');
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* @media (max-width: 640px) {
   .pack_bg {
