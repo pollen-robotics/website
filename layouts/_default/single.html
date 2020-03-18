@@ -1,0 +1,40 @@
+{{ define "main" }} {{ partial "topbar.html" . }}
+
+<main class="page-content">
+  <div class="container-fluid grey_CTA">
+    <div class="position-relative overflow-hidden text-center">
+      <div class="col-md-8 mx-auto my-5">
+        <h1 class="display-6">
+        {{ .Title }}
+        </h1>
+        <div class="logo-container text-center">
+          <img
+            title="Pollen Robotics"
+            alt="Pollen Robotics"
+            src="/img/logo_pollen_nav.png"
+            class="logo"
+          />
+        </div>
+        <br />
+        <h6>These general terms and conditions are valid from 30/09/2019.</h6>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid">  
+        <div class="col-sm-9 mx-auto">
+        {{ .Content }}  
+  </div>
+</div>
+
+</main>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
