@@ -2,7 +2,6 @@
 title: "General terms and conditions of sales"
 date: 2020-02-24T14:58:28+01:00
 draft: false
-layout: single
 ---
 
 ## 1. Acceptance of the conditions

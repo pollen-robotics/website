@@ -1,0 +1,36 @@
+{{ define "header"}}
+
+{{ if isset .Params "background_image" }}
+<div id="banner" class="text-light" style="background-image: url({{.Params.background_image}});">
+{{ else}}
+{{ if isset .Params "color" }}
+<div id="banner" class="bg-pollen-{{.Params.color}}" >
+{{ else}}
+<div id="banner" class="bg-light" >
+{{end}}
+{{end}}
+
+  <div class="container">
+    
+    <div class="row justify-content-center text-center ">
+      <div class="col-8 align-self-center">
+        <h1>{{ .Title }}</h1>
+        <p class="lead"> {{.Params.description}}</p>
+      </div>
+
+    </div>
+  </div>
+    
+</d iv>
+
+
+{{ end }}
+{{ define "main" }}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-8">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}
