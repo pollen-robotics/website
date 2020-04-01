@@ -1,0 +1,15 @@
+{{$technical := .Scratch.Get "technical" }}
+
+
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+            <p> <b>Power Supply:</b>  {{ $technical.power_plug }}</p>
+            <p> <b>Power Consumption:</b>  {{ $technical.power }}</p>
+            
+        </div>
+        
+        <div class="col-md-3">
+            <p> <b>Mass:</b>  {{ $technical.mass }}</p>
+            <p> <b>Dimensions:</b>  {{ $technical.dimension }}</p>
+        </div>
+    </div>

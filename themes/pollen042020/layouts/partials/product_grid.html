@@ -1,0 +1,25 @@
+<!-- Take a list of product page URL -->
+
+{{ $Site := .Site }}
+{{ $products := .Scratch.Get "product_list" }}
+
+{{range $products }}
+    {{ with $Site.GetPage "page" . }}
+    <div class="col mb-4">
+        <div class="card h-100"> 
+            <img src="{{.Params.featured_images}}" class="card-img-top bg-pollen-{{.Params.color_scheme}}" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{.Title}}</h5>
+                <p class="card-text">{{.Params.description}}</p>
+                <a name="" id="" class="btn btn-primary" href="{{.Permalink}}" role="button"> Discover</a>
+            </div>
+        </div>
+    </div>
+    {{end}}
+{{end}}
+
+
+
+
+
+
