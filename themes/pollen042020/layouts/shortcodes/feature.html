@@ -1,0 +1,28 @@
+{{ $imgpos := "2"}}
+{{ $textpos := "1"}}
+
+{{ if eq (.Get "img-left") true }}
+    {{ $imgpos = "1"}}
+    {{ $textpos = "2"}}
+{{ end }}
+
+
+<div class="row align-items-center">
+    <div class="col-md-7 order-md-{{ $textpos }}">
+        <h2 class="featurette-heading"> {{ .Get "Title"}}</h2>
+        <p class="lead">{{.Inner | markdownify}}</p>
+    </div>
+    <div class="col-md-5 order-md-{{ $imgpos }}">
+        {{if .Get "video"}}
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="img-fluid mx-auto">
+            <source src="{{.Get "video" }}" type="video/mp4">
+          </video>
+        {{ end }}
+
+        {{if .Get "img"}}
+        <img class="featurette-image img-fluid mx-auto" src="{{.Get "img" }}"
+        alt="Generic placeholder image">
+        {{end}}
+    </div>
+</div>
+

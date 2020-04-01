@@ -1,7 +1,7 @@
 ---
 title: "Chest"
 product_reference: "chest"
-description: "Lorem ipsum dolor sit amet"
+description: "All-in-one compact torso with electronics and electrical components, incl. microphone and speakers"
 draft: false
 layout: "product"
 featured_images: "/img/reachy/modules/chest-square.png"

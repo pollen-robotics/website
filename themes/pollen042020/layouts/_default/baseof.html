@@ -3,13 +3,15 @@
 <html lang="{{ .Site.LanguageCode }}">
 
     {{- partial "head.html" . -}}
-    <body>
+
+    <body data-spy="scroll" data-target="#second-navbar" data-offset="50">
+
         {{- partial "navbar.html" . -}}
-
-
+        
         <div id="header">
-             {{- block "header" . }}{{- end }}
+            {{- block "header" . }}{{- end }}
         </div>
+        {{- block "subnav" . }}{{- end }}
         
         <div id="content">
             {{- block "main" . }}{{- end }}

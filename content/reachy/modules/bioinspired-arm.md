@@ -1,7 +1,7 @@
 ---
 title: "Bio Inspired ARm"
 product_reference: "arm"
-description: "Lorem ipsum dolor sit amet"
+description: "Humanoid arm for optimum expression or object manipulation"
 draft: false
 layout: "product"
 featured_images: "/img/reachy/modules/arm-square.png"

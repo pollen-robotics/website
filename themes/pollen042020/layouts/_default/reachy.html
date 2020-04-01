@@ -1,0 +1,63 @@
+{{ define "header"}}
+<div class="index_header container-fluid">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted">
+        <source src="{{ "video/reachyflowers.mp4" | relURL }}" type="video/mp4">
+    </video>
+    <div class="container-fluid text-white">
+    <div class="col-md-6 p-lg-5 mx-5 my-5">
+        <h1 class="display-2 font-weight-bold">Hello, I'm Reachy!</h1>
+        <p class="lead display-4">Open source interactive robot to explore real-world applications</p>
+    </div>
+    </div>
+</div>
+
+{{ end }}
+
+{{ define "subnav"}}
+
+<nav id="second-navbar" class="navbar sticky-top navbar-expand-lg bg-light">
+    <div class="container justify-content-center">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#discover">What's Reachy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#press">Press</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#modules">Modules</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container" id="discover">
+
+    {{ .Content}}
+</div>
+
+<div class="container" id="modules">
+    <h2>Discover all modules</h2>
+    
+    <div class="row row-cols-2 row-cols-md-5">
+    
+    {{ .Scratch.Set "product_list" .Params.related_product_pages }}
+    {{ partial "product_grid.html" .}}
+    
+    </div>
+    
+</div>
+
+
+  {{ end }}
+
+  {{ define   "custom-scripts"}}
+    <script>
+        $('body').scrollspy({ target: '#second-navbar' })
+    </script>
+  {{end}}

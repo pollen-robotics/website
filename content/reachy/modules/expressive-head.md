@@ -1,7 +1,7 @@
 ---
 title: "Expressive Head"
 product_reference: "head"
-description: "Lorem ipsum dolor sit amet"
+description: "Expressive head with two wide angle cameras and mobile antennas for emotions."
 draft: false
 layout: "product"
 featured_images: "/img/reachy/modules/expressive-head-square.png"
