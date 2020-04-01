@@ -1,22 +1,21 @@
 ---
-title: "Reachy advanced pack"
-product_reference: "reachy-advanced-kit"
-description: "Reachy's full interactive experience"
+title: "Reachy expressive"
+product_reference: "reachy-expressive-kit"
+description: "Reachy's bio-inspired arm and hand and expressive head and antennas"
 draft: false
 layout: "pack"
-featured_images: "/img/reachy/packs/reachy-advanced-kit.png"
-price: 14 590
+featured_images: "/img/reachy/packs/reachy-expressive-kit.png"
+price: 9 990
 included_products: ["reachy/modules/expressive-head.md", "reachy/modules/chest.md", "reachy/modules/bioinspired-arm.md", "reachy/modules/gripper.md"]
 optionnal_products: []
-color_scheme: "green"
 color_scheme: "green"
 package_content: 
     - "Preinstalled software"
     - "Aluminium support frame"
     - "Torso module"
     - "**Expressive head module**"
-    - "**Right 7-Dofs bio-inspired arm with gripper**"
-    - "**Left 7-Dofs bio-inspired arm with gripper**"
+    - "Right or left 7-Dofs bio-inspired arm with gripper"
+    - "_"
 technical:
     mass : "7.5 kg"
     power : "240 W"
@@ -24,4 +23,4 @@ technical:
     dimension : "70cm x 40 cm x 30 cm"
 ---
 
-Include 2 arms, 2 grippers, a head and a torso
+Include 1 arms, 1 grippers, a head and a torso
