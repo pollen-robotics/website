@@ -1,0 +1,85 @@
+<!-- Modal -->
+<div id="popup_order">
+<div class="modal fade" id="orderform-{{.Params.product_reference}}" tabindex="-1" role="dialog" aria-labelledby="AskForAQuote" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-pollen-{{.Params.color_scheme}}  pb-0" style="background-image: url({{.Params.featured_images}});">
+                <div class="container-fluid py-0">
+            
+                    <div class="row">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="row justify-content-end align-items-center py-0">
+                        <div class="col-8 px-0">
+                            <h3>Quote for {{.Title}}</h3>
+                            <p>{{.Params.Description}}</p>
+                            <p class="lead">{{.Params.price}}€ Tax Excl.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="modal-body">
+                <form action="https://formspree.io/xgeorwgq" method="POST">
+                    
+                    <div class="form-group">
+                        <label>Your name</label>
+                        <input type="hidden" name="_subject" id="_cesPreOrderSubject" value="New submission!" />
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name" name="firstName" id="nameCESPreOrderInput" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Country</label>
+                        {{ partial "form-country-select.html" . }}
+                    </div>
+                    
+                    <!-- <div class="form-group">
+                        <label for="reachyConfig">Configure your Reachy</label>
+                        <select id="reachyConfig" class="form-control" name="kit">
+                            <option value="reachy-basic-kit">Reachy basic kit - single arm (7990€ / $8900)</option>
+                            <option value="reachy-expressive-kit" selected>Reachy expressive kit - single arm (9990€ / $10900)</option>
+                            <option value="reachy-advanced-kit">Reachy Advanced - double arm (15490€/ $16900)</option>
+                        </select>
+                    </div> -->
+                    
+                    <div class="form-group">
+                        <label>Any specific needs, let us know what you would like.</label>
+                        <textarea class="form-control" rows="3" name="specifics"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Tell us more about your application (this will help us better advise you with what you really
+                            need).</label>
+                            <textarea class="form-control" rows="3" name="usecase"></textarea>
+                    </div>
+                        
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary btn-block">Submit your request</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Button trigger modal -->

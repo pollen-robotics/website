@@ -51,11 +51,43 @@
     
 </div>
 
+<div id="pack" class="bg-light">
+  
+  <div class="container">
+    <h2>Discover our packs</h2>
+    <p class="lead"> Quickstart your project with our ready-to-use packs</p>
+    
+    {{ .Scratch.Set "product_list" .Params.pricing }}
+    {{partial "compare_product.html" . }}
+  </div>
 
-  {{ end }}
 
-  {{ define   "custom-scripts"}}
-    <script>
-        $('body').scrollspy({ target: '#second-navbar' })
-    </script>
-  {{end}}
+</div>
+
+<div id="documentation">
+  
+  <div class="container">
+    <h2>Technical information and documentaiton</h2>
+    <p class="lead">Boring but useful stuff</p>
+
+  
+    {{.Scratch.Set "technical" .Params.technical}}
+    {{partial "technical_info.html" .}}
+
+  <div class="row">
+    <div class="col">
+      <i class="far fa-file-alt"> yo</i>
+      <i class="fas fa-cogs">access hardware</i>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+{{ end }}
+
+{{ define   "custom-scripts"}}
+
+{{end}}

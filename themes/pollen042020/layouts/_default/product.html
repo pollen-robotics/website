@@ -16,7 +16,7 @@
           <ol class="breadcrumb bg-transparent">
             <li class="breadcrumb-item"><a href="#">Reachy</a></li>
             <li class="breadcrumb-item"><a href="#">Modules</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ .Params.Title }}</li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
           </ol>
         </nav>
         <h1>{{ .Params.Title }}</h1>
@@ -27,13 +27,16 @@
         
         
         <hr />
-        <button type="button" class="btn btn-primary btn-lg">Add to your wishlist</button>
+        
+<button type="button" class="btn btn-lg btn-light" data-toggle="modal" data-target="#orderform-{{.Params.product_reference}}" data-pack="{{.Params.product_reference}}"> Get a quote </button>           
         
       </div>
     </div>
     
   </div>
 </div>
+
+{{ partial "popup_order_form.html" .}}
 
 {{ end }}
 

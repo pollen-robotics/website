@@ -1,0 +1,39 @@
+
+{{ $Site := .Site }}
+{{ $products := .Scratch.Get "product_list" }}
+
+<div class="card-deck mb-3 text-center h-100">
+    {{range $products}}
+        {{ with $Site.GetPage "page" . }}
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header bg-pollen-green px-0 py-0">
+          <img src="{{.Params.featured_images}}" class="img-fluid" alt="">
+      </div>
+      <div class="card-body">
+        <h4 class="pricing-card-title">{{.Title}}</h4>
+        <p class="lead pricing-card-title">{{.Params.price}}€ Tax Excl</p>
+        <!-- <p class="lead">{{.Params.description}}</p> -->
+      </div>
+      
+      
+      <div class="card-footer bg-white">
+          <h5>includes</h5>
+        <ul class="list-unstyled mt-3 mb-4">
+            {{range .Params.package_content}}
+            <li>{{. | markdownify}}</li>
+            {{end}}
+          </ul>
+        
+          {{ partial "popup_order_form.html" .}}
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#orderform-{{.Params.product_reference}}" data-pack="{{.Params.product_reference}}"> Get a quote </button>
+
+        <a class="btn btn-outline-primary btn-lg btn-block" href="{{.Permalink}}" role="button">learn more</a>
+
+      </div>
+    </div>
+    
+    
+
+    {{end}}
+    {{end}}
+</div>
