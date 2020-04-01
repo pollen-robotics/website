@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+    
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}" aria-label="return to homepage">
+            <img src="{{ "/img/logo/pollen_logo_nav.svg" | relURL }}" height="48" class="site-logo d-inline-block align-top" alt="{{ .Site.Params.Brand }} logo"> 
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarToggler" aria-label="Site Pages">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="/reachy">Reachy</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/team">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/community">Community</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/buy">Buy</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+    </nav>

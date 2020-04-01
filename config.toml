@@ -1,9 +1,27 @@
 baseURL = "https://www.pollen-robotics.com/"
 languageCode = "en-us"
-title = "Pollen Robotics"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "sitemap", "RSS"]
+title = "Pollen Robotics website"
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS"]
 googleAnalytics = "UA-92714924-1"
 
+theme = "pollen042020"
+relativeURLs = true
+
 [params]
-description = "Pollen Robotics site description"
+description = "Pollen Robotics is a startup building interactive robots and artificial intelligences"
 brand = "Pollen Robotics"
+
+[menu]
+    [[menu.footer]]
+        identifier = "terms"
+        name = "Terms & Conditions"
+        url = "/terms/"
+        weight = 100
+    [[menu.footer]]
+        identifier = "about"
+        name = "About Us"
+        url = "/about/"
+   [[menu.footer]]
+        identifier = "community"
+        name = "Community"
+        url = "/about/"

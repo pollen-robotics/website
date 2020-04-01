@@ -1,0 +1,77 @@
+/* COLOR */
+
+.bg-pollen-green{
+    background-color: #77BBB9;
+    color: #fff;
+}
+
+.bg-pollen-yellow{
+    background-color: #FDD689;
+    color: #333;
+}
+
+.bg-pollen-dark-blue{
+    background-color: #396581;
+    color: #fff;
+}
+
+.bg-pollen-blue{
+    background-color: #6080BE;
+    color: #fff;
+}
+
+.bg-pollen-red{
+    background-color: #F1887F;
+    color: #fff;
+}
+
+
+/* Banner */
+
+#header .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#banner {
+    background-size: cover;
+    min-height: 30vh;
+}
+
+
+/* Page content */
+#content #product-page, #package-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#content .container, .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#content h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* FOOTER */
+footer .row{
+    padding-top: 50px;
+}
+
+footer li{
+    list-style:none;
+}
+
+footer span{
+    display: block;
+}
+
+footer hr{
+    border-color: whitesmoke;
+    width: 50%;
+    margin-left: 0px;
+}
+

@@ -1,0 +1,48 @@
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="row row-cols-4 justify-content-center">
+            <div class="col">
+                <H5>Contact</H5>
+                <hr>
+                <address>
+                    <span><strong>Pollen Robotics SAS</strong></span>
+                    <span>49 rue borie</span>
+                    <span>33300 Bordeaux</span>
+                    <span>France</span>
+                    <!-- <abbr title="Phone">P:</abbr> (123) 456-7890 -->
+                </address>
+                
+                <address>
+                    <strong>e-mail</strong><br>
+                    <a href="mailto:contact@pollen-robotics.com" class="text-light" target="_blank">contact@pollen-robotics.com</a>
+                </address>
+                
+            </div>
+            <div class="col">
+                <H5>Quicklinks</H5>
+                <hr>
+                <ul class="list-group">
+                    {{ range .Site.Menus.footer }}
+                    <li> <a href="{{.URL}}" class="text-light">{{.Name}}</a></li>
+                    {{end}}
+                </ul>
+            </div>
+            <div class="col">
+                <H5>Follow us on</H5>
+                <hr>
+                <ul class="list-group">
+                    {{ range .Site.Data.social.item }}                
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="{{.url}}" target="_blank" class="text-light"><i class="fab fa-{{.site}} mr-2"></i>{{.name}}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <p class="text-center">Copyright Pollen Robotics SAS ©2016-present. <br> All rights reserved.</p>
+        </div>
+    </div>
+    
+</footer>
