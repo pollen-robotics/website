@@ -1,11 +1,15 @@
 <script>
     (function () {
-        const subject = document.getElementById('_preOrderFormSubject');
-        const nameInput = document.getElementById('nameOrderInput');
+        const forms = document.getElementsByClassName("order-form");
 
-        nameInput.addEventListener('change', function () {
-        const msg = `New submission from ${nameInput.value} on order form!`;
-        subject.value = msg;
-        })
+        for (let f of forms) {
+            let subject = f.children[1];
+            let nameInput = f.children[3].children[0].children[0];
+
+            nameInput.addEventListener('change', function () {
+                const msg = `New submission from ${nameInput.value} on order form!`;
+                subject.value = msg;
+            });
+        }
     }());
 </script>
