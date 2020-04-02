@@ -29,6 +29,8 @@
                         <div class="form-group">
                             <label>Your name</label>
                             <input type="hidden" name="_subject" id="_cesPreOrderSubject" value="New submission!" />
+                            <input type="hidden" name="product" value="{{.Params.product_reference}}" />
+
                             <div class="row">
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="First name" name="firstName" id="nameCESPreOrderInput" required>
