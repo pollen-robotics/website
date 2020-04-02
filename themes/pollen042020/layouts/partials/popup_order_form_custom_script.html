@@ -1,0 +1,11 @@
+<script>
+    (function () {
+        const subject = document.getElementById('_preOrderFormSubject');
+        const nameInput = document.getElementById('nameOrderInput');
+
+        nameInput.addEventListener('change', function () {
+        const msg = `New submission from ${nameInput.value} on order form!`;
+        subject.value = msg;
+        })
+    }());
+</script>
