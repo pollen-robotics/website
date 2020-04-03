@@ -33,6 +33,12 @@
 
 /* Banner */
 
+.homepage{
+    background: linear-gradient(rgb(137, 209, 207), rgb(75, 146, 144) 70%, #ffffff 70%);
+        /* background: linear-gradient(#77BBB9, #fff); */
+    background-color: #77BBB9;
+}
+
 #header .container {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -85,7 +91,7 @@ footer hr{
     margin-left: 0px;
 }
 
-.index_header {
+.reachy_header {
     position: relative;
     background-color:#77BBB9;
     min-height: 40vw;
@@ -94,7 +100,7 @@ footer hr{
     overflow: hidden;
   }
   
-#header video {
+#header .reachy_header > video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -118,3 +124,10 @@ footer hr{
     text-align: center;
   }
 
+#content hr {
+    width: 75%;
+    vertical-align: middle;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+
+}

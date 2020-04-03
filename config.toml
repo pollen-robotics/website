@@ -25,3 +25,8 @@ brand = "Pollen Robotics"
         identifier = "community"
         name = "Community"
         url = "/about/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

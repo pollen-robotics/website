@@ -6,11 +6,13 @@
     {{ $textpos = "2"}}
 {{ end }}
 
-
-<div class="row align-items-center">
-    <div class="col-md-7 order-md-{{ $textpos }}">
+<div class="row text-center">
+    <div class="col-md-7 order-md-{{ $textpos }} py-3">
         <h2 class="featurette-heading"> {{ .Get "Title"}}</h2>
         <p class="lead">{{.Inner | markdownify}}</p>
+        {{ if .Get "Button"}}
+            <a name="" id="" class="btn btn-primary" href="{{.Get "URL" }}" role="button">{{.Get "Button" }}</a>
+        {{ end }}
     </div>
     <div class="col-md-5 order-md-{{ $imgpos }}">
         {{if .Get "video"}}
