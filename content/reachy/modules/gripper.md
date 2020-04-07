@@ -1,7 +1,7 @@
 ---
 title: "Gripper with force sensor"
 product_reference: "gripper"
-description: "Lorem ipsum dolor sit amet"
+description: "Robotic gripper for grabbing objects and moving them around, just like a human hand"
 draft: false
 layout: "product"
 featured_images: "/img/reachy/modules/gripper-square.png"
@@ -16,10 +16,15 @@ technical:
 ---
 
 
-## Expressive head
+## Gripper
 
 
-Altera sententia est, quae definit amicitiam paribus officiis ac voluntatibus. Hoc quidem est nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare restricte, ne plus reddat quam acceperit; neque enim verendum est, ne quid excidat, aut ne quid in terram defluat, aut ne plus aequo quid in amicitiam congeratur.
+Reachy’s gripper can hold, tighten, handle and release an object:
+
+Animated by 1 Dynamixel AX-18A.
+
+Includes a force sensor micro load cell 0.78 Kg
+
 
 
 {{< youtube id="X9dgsLX_u9I" >}}

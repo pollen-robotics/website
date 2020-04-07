@@ -1,5 +1,5 @@
 ---
-title: "Bio Inspired ARm"
+title: "Bio-inspired Arm"
 product_reference: "arm"
 description: "Humanoid arm for optimum expression or object manipulation"
 draft: false
@@ -18,10 +18,26 @@ documents:
     Documentation: "/doc/machin.pdf"
 ---
 
-## Expressive head
+## Bio-inspired arm
 
 
-Altera sententia est, quae definit amicitiam paribus officiis ac voluntatibus. Hoc quidem est nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare restricte, ne plus reddat quam acceperit; neque enim verendum est, ne quid excidat, aut ne quid in terram defluat, aut ne plus aequo quid in amicitiam congeratur.
+Reachy’s arm features similar dimensions, proportions and movement as in an adult human arm:
+
+Offers <b>7 DOF</b>
+
+Animated by <b>7 Dynamixel motors</b>
+
+Can be equipped with a number of manipulators from <b>grippers</b> to five-fingered <b>humanoid hands</b>
+
+Can manipulate objects as heavy as <b>500 gr / 1.1 lbs</b>
+
+<br>
+
+
+<b>Looking for increased accuracy and repeatability? Check out our Performance version</b>
+<br>
+<br>
+
 
 
 {{< youtube id="X9dgsLX_u9I" >}}

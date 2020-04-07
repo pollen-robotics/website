@@ -1,7 +1,7 @@
 ---
-title: "5-fingers hand"
+title: "5-finger humanoid hand"
 product_reference: "hand"
-description: "Lorem ipsum dolor sit amet"
+description: "A multifingered robotic hand to perform an extensive set of signs and complex manipulations"
 draft: false
 layout: "product"
 featured_images: "/img/reachy/modules/5fingers-hand-square.png"
@@ -16,10 +16,18 @@ technical:
 ---
 
 
-## Expressive head
+## 5-finger humanoid hand
 
 
-Altera sententia est, quae definit amicitiam paribus officiis ac voluntatibus. Hoc quidem est nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare restricte, ne plus reddat quam acceperit; neque enim verendum est, ne quid excidat, aut ne quid in terram defluat, aut ne plus aequo quid in amicitiam congeratur.
+Reachy’s 5-finger hand makes flexible human-like motions as its design is inspired by the human musculoskeletal system:
+
+Animated by <b>Dynamixel motors</b>
+
+<b>1 DOF</b> per finger
+
+Can be mounted onto <b>Orbita wrist joint</b> (with 3 DOF)
+
+
 
 
 {{< youtube id="FyIdX-yQw1Q" >}}

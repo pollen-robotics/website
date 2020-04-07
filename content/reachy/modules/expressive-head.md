@@ -1,7 +1,7 @@
 ---
 title: "Expressive Head"
 product_reference: "head"
-description: "Expressive head with two wide angle cameras and mobile antennas for emotions."
+description: "A friendly robotic head for the most human-friendly interaction."
 draft: false
 layout: "product"
 featured_images: "/img/reachy/modules/expressive-head-square.png"
@@ -19,7 +19,14 @@ technical:
 ## Expressive head
 
 
-Altera sententia est, quae definit amicitiam paribus officiis ac voluntatibus. Hoc quidem est nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare restricte, ne plus reddat quam acceperit; neque enim verendum est, ne quid excidat, aut ne quid in terram defluat, aut ne plus aequo quid in amicitiam congeratur.
+Reachy’s head may be small, it’s packed with very useful stuff:
+
+Two <b> wide angle cameras </b> with different fields of view to allow Reachy to do facial and object detection.
+
+A <b> pair of antennae </b> which can move and tilt via motors, to make Reachy look even more emotionally expressive.
+
+In-house developed specialized <b> Orbita neck joint </b> that allows the head to swivel, pan and tilt in a human manner.
+
 
 
 {{< youtube id="X9dgsLX_u9I" >}}
