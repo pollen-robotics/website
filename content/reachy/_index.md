@@ -8,12 +8,16 @@ pricing: ["reachy/packs/reachy_starter.md", "reachy/packs/reachy_expressive.md",
 ---
 
 ## A unique open prototyping platform
+<br>
 Reachy makes AI & robotics accessible to researchers, innovation professionals and creatives.
+They can jump straight into the meat of their research without first having to train up the machine learning component.<br>
+<br>
+
 
 {{< youtube iSL39WFxCLE >}}
 
 
-Lorem ipsum dolor sit amet,
+
 
 ---
 

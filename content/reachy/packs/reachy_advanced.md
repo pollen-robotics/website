@@ -1,5 +1,5 @@
 ---
-title: "Reachy advanced pack"
+title: "Reachy Advanced pack"
 product_reference: "reachy-advanced-kit"
 description: "Reachy's full interactive experience"
 draft: false
@@ -14,9 +14,9 @@ package_content:
     - "Preinstalled software"
     - "Aluminium support frame"
     - "Torso module"
-    - "**Expressive head module**"
-    - "**Right 7-Dofs bio-inspired arm with gripper**"
-    - "**Left 7-Dofs bio-inspired arm with gripper**"
+    - "Expressive head"
+    - "Right and left bio-inspired arms" 
+    - "Right and left grippers"
 technical:
     mass : "7.5 kg"
     power : "240 W"

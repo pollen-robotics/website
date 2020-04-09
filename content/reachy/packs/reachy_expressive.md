@@ -1,7 +1,7 @@
 ---
-title: "Reachy expressive"
+title: "Reachy Expressive pack"
 product_reference: "reachy-expressive-kit"
-description: "Reachy's bio-inspired arm and hand and expressive head and antennas"
+description: "Reachy's bio-inspired arm and gripper with expressive head"
 draft: false
 layout: "pack"
 featured_images: "/img/reachy/packs/reachy-expressive-kit.png"
@@ -12,10 +12,10 @@ color_scheme: "green"
 package_content: 
     - "Preinstalled software"
     - "Aluminium support frame"
-    - "Torso module"
-    - "**Expressive head module**"
-    - "Right or left 7-Dofs bio-inspired arm with gripper"
-    - "_"
+    - "Torso"
+    - "Expressive head"
+    - "Right or left bio-inspired arm"
+    - "Right or left gripper"
 technical:
     mass : "7.5 kg"
     power : "240 W"
@@ -23,4 +23,4 @@ technical:
     dimension : "70cm x 40 cm x 30 cm"
 ---
 
-Include 1 arms, 1 grippers, a head and a torso
+Includes 1 arm, 1 gripper, a head and a torso

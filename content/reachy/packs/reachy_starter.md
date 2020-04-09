@@ -1,5 +1,5 @@
 ---
-title: "Reachy starter"
+title: "Reachy Starter pack"
 product_reference: "reachy-basic-kit"
 description: "Reachy's bio-inspired arm and hand"
 draft: false
@@ -12,9 +12,9 @@ color_scheme: "green"
 package_content: 
     - "Preinstalled software"
     - "Aluminium support frame"
-    - "Torso module"
-    - "Right or left 7-Dofs bio-inspired arm with gripper"
-    - "_"
+    - "Torso"
+    - "Right or left bio-inspired arm"
+    - "Right or left gripper"
     - "_"
 technical:
     mass : "7.5 kg"
@@ -23,4 +23,4 @@ technical:
     dimension : "70cm x 40 cm x 30 cm"
 ---
 
-Include 2 arms, 2 grippers, a head and a torso
+Includes 2 arms, 2 grippers, a head and a torso
