@@ -9,10 +9,13 @@ price: "1500"
 related_product_pages: ["reachy/modules/expressive-head.md", "reachy/modules/chest.md", "reachy/modules/bioinspired-arm.md", "reachy/modules/gripper.md"]
 color_scheme: "dark-blue"
 technical:
-    mass : "7.5 kg"
-    power : "240 W"
-    power_plug : "120-240V"
-    dimension : "70cm x 40 cm x 30 cm"
+    Power consumption : "51W"
+    Power Supply : "12V"
+    Connectivity  : "Robus connector"
+    Weight : ""
+    Dimensions : "346.5x300x142.5mm"
+    Construction : "3D printed MJF Painted, 3 axial needle roller bearings"
+    Content  : "1 DXL MX-106 servomotor, 3 DXL MX-64 servomotors, 1 DXL MX-28 servomotor, 2 DXL AX-18 servomotors, 3 Fans"
 documents:
     CAD: "https://www.onshape.com/"
     Documentation: "/doc/machin.pdf"

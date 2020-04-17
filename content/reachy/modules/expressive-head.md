@@ -9,10 +9,13 @@ price: "1500"
 related_product_pages: ["reachy/modules/expressive-head.md", "reachy/modules/chest.md", "reachy/modules/bioinspired-arm.md", "reachy/modules/gripper.md"]
 color_scheme: "green"
 technical:
-    mass : "7.5 kg"
-    power : "240 W"
-    power_plug : "120-240V"
-    dimension : "70cm x 40 cm x 30 cm"
+    Power consumption : "15W (including Orbita)"
+    Power Supply : "12V / 7.5V for antennas"
+    Connectivity  : "Robus connector - Flex for Raspberry cameras"
+    Weight : ""
+    Dimensions : "120x175x107.5mm without antennas - 120x279.4x107.5mm with antennas up"
+    Construction : "3D printed MJF and PLA. Painted Glass lenses Plastic antennas 2x Ball Bearings"
+    Content  : "2x Raspberry cameras, 1x XL-320 Luos Module, 2x Robotis XL-320 servomotors, 2x Lenses, 1x Orbita Actuator, 12v-7.5v Converter for antennas motors"
 ---
 
 

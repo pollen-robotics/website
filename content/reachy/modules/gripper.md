@@ -9,10 +9,13 @@ price: "1500"
 related_product_pages: ["reachy/modules/expressive-head.md", "reachy/modules/chest.md", "reachy/modules/bioinspired-arm.md", "reachy/modules/gripper.md"]
 color_scheme: "red"
 technical:
-    mass : "7.5 kg"
-    power : "240 W"
-    power_plug : "120-240V"
-    dimension : "70cm x 40 cm x 30 cm"
+    Power consumption : "5.3W"
+    Power Supply : "12V"
+    Connectivity  : "Robus connector"
+    Weight : ""
+    Dimensions : "117.3x84x51.4mm"
+    Construction : "3D printed MJF Painted, Flexible PU molded"
+    Content  : "1x DXL AX-18 servomotor, Grippy surfaces, Force sensor"
 ---
 
 

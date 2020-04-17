@@ -9,10 +9,13 @@ price: "1500"
 related_product_pages: ["reachy/modules/expressive-head.md", "reachy/modules/chest.md", "reachy/modules/bioinspired-arm.md", "reachy/modules/gripper.md"]
 color_scheme: "yellow"
 technical:
-    mass : "7.5 kg"
-    power : "240 W"
-    power_plug : "120-240V"
-    dimension : "70cm x 40 cm x 30 cm"
+    Power consumption : "180W max"
+    Power Supply : "12V"
+    Connectivity  : "USB 3.0, HMDI, Ethernet, Wifi"
+    Weight : ""
+    Dimensions : "346.5x300x142.5mm"
+    Construction : "3D printed MJF and PLA. Painted Aluminium Structure"
+    Content  : "1x Raspberry Pi 4, 1x USB 3.0 Hub, 3 Luos Gate Modules, 2 DXL Luos modules, 1x Google Coral TPU, 1x 8W Speaker, 1x Microphone"
 ---
 
 
