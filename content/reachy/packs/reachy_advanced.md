@@ -22,7 +22,7 @@ technical:
     Power Supply : "12V"
     Connectivity  : "USB 3.0 / HMDI / Ethernet / Wifi"
     Weight : "7.5 kg"
-    Dimensions : "65x45x20mm packaged / 65x1800x20mm arms spread"
+    Dimensions : "65x45x20cm packaged / 65x1800x20cm arms spread"
     Construction : "3D printed MJF, SLS and PLA. Painted Aluminium Structure"
     Content  : "1x Head, 2x Arms, 1x Torso, 2x Grippers, 12V - 15A Power Supply"
 
