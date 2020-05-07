@@ -1,115 +1,174 @@
-/* SOCIAL */
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;700&family=Montserrat:wght@200;300;400;500;600&display=swap');
 
-.icon-social-black{
-    font-size: 1.5em;
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.lead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-family: 'Cormorant';
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Cormorant';
+    font-weight: 300;
+}
+
+.justify-content-center h2{
+    text-align: center;
+}
+
+h3{
+    font-family: 'Cormorant';
+    font-weight: 300;
+}
+
+
+@media screen and (min-width: 601px) {
+
+    p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    h1{
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    
+    h3{
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    p{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    
+    h3{
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* SECTION */
+
+#content .container, 
+#content .container-fluid{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#header .container{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+#content hr {
+    width: 75%;
+    vertical-align: middle;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    #header .container{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    #content .container, 
+    #content .container-fluid{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    #content h2{
+        text-align: center;
+    }
+
+}
+
+
+
+/* LINK & BUTTONS */
+
+a{
+    color:#77BBB9;
+}
+
+a:hover{
+    color: #5AADAA;
+} 
+
+.btn-link{
+    font-size: 1.1em;
     color: black;
-    padding-left: 10px;
-  }
-  
-.icon-social-white{
-font-size: 1.5em;
-color: white;
-padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: solid;
+    border-radius: 0px;
+    border-width: 0px 0px 4px 0px;
+    padding: 0px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-a:hover .facebook {
-color: #3b5998;
-size: 30px;
+a:hover.btn-link{
+    color: #5AADAA;
+    text-decoration: none;
 }
 
-a:hover .linkedin {
-color: #0976b4;
-}
+@media screen and (max-width: 600px) {
 
-a:hover .twitter {
-color: #55acee;
-}
+    .btn-link{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
-a:hover .youtube {
-color: #e52d27;
-}
-
-a:hover .github{
-color: #555;
-}
-
-a:hover .medium{
-color: #03a87c;
 }
 
 
-/* COLOR */
-
-.bg-pollen-green{
-    background: linear-gradient(rgb(146, 209, 207), rgb(80, 153, 151)); 
-    background-color: #77BBB9;
-    color: #fff;
-}
-
-.bg-pollen-yellow{
-    background: linear-gradient(rgb(250, 219, 157),rgb(252, 206, 116)); 
-    background-color: #FDD689;
-    color: #333;
-}
-
-.bg-pollen-dark-blue{
-    background: linear-gradient(#457999,#30556d); 
-    background-color: #396581;
-    color: #fff;
-}
-
-.bg-pollen-blue{
-    background: linear-gradient(rgb(112, 148, 219),rgb(75, 100, 151)); 
-    background-color: #6080BE;
-    color: #fff;
-}
-
-.bg-pollen-red{
-    background: linear-gradient(rgb(253, 147, 137), rgb(221, 114, 104)); 
-    background-color: #F1887F;
-    color: #fff;
-}
-
-
-/* Banner */
-
-.homepage{
-    background: linear-gradient(rgb(137, 209, 207), rgb(75, 146, 144) 70%, #ffffff 70%);
-        /* background: linear-gradient(#77BBB9, #fff); */
-    background-color: #77BBB9;
-}
-
-#header .container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#banner {
-    background-size: cover;
-    min-height: 30vh;
-}
-
-
-/* Page content */
-#content #product-page, #package-page {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#content .container, .container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#content h1, h2, h3 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#content .lead {
-    text-align: center;
-    margin-bottom: 30px;
-}
 
 
 /* FOOTER */
@@ -119,6 +178,10 @@ footer .row{
 
 footer li{
     list-style:none;
+}
+
+footer .list-group-item{
+    background-color: inherit;
 }
 
 footer span{
@@ -164,10 +227,80 @@ footer hr{
     text-align: center;
   }
 
-#content hr {
-    width: 75%;
-    vertical-align: middle;
-    margin-bottom: 10vh;
-    margin-top: 10vh;
+/* SOCIAL */
 
+.social{
+    text-align: end;
+}
+
+.icon-social-black{
+    font-size: 1.5em;
+    color: black;
+    padding-left: 10px;
+  }
+  
+.icon-social-white{
+font-size: 1.5em;
+color: white;
+padding-left: 10px;
+}
+
+a:hover .facebook {
+color: #3b5998;
+size: 30px;
+}
+
+a:hover .linkedin {
+color: #0976b4;
+}
+
+a:hover .twitter {
+color: #55acee;
+}
+
+a:hover .youtube {
+color: #e52d27;
+}
+
+a:hover .github{
+color: #555;
+}
+
+a:hover .medium{
+color: #03a87c;
+}
+
+
+
+/* COLOR */
+
+
+.bg-pollen-green{
+    background: linear-gradient(rgb(146, 209, 207), rgb(80, 153, 151)); 
+    background-color: #77BBB9;
+    color: #fff;
+}
+
+.bg-pollen-yellow{
+    background: linear-gradient(rgb(250, 219, 157),rgb(252, 206, 116)); 
+    background-color: #FDD689;
+    color: #333;
+}
+
+.bg-pollen-dark-blue{
+    background: linear-gradient(#457999,#30556d); 
+    background-color: #396581;
+    color: #fff;
+}
+
+.bg-pollen-blue{
+    background: linear-gradient(rgb(112, 148, 219),rgb(75, 100, 151)); 
+    background-color: #6080BE;
+    color: #fff;
+}
+
+.bg-pollen-red{
+    background: linear-gradient(rgb(253, 147, 137), rgb(221, 114, 104)); 
+    background-color: #F1887F;
+    color: #fff;
 }
