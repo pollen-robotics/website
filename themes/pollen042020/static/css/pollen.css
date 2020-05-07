@@ -1,3 +1,43 @@
+/* SOCIAL */
+
+.icon-social-black{
+    font-size: 1.5em;
+    color: black;
+    padding-left: 10px;
+  }
+  
+.icon-social-white{
+font-size: 1.5em;
+color: white;
+padding-left: 10px;
+}
+
+a:hover .facebook {
+color: #3b5998;
+size: 30px;
+}
+
+a:hover .linkedin {
+color: #0976b4;
+}
+
+a:hover .twitter {
+color: #55acee;
+}
+
+a:hover .youtube {
+color: #e52d27;
+}
+
+a:hover .github{
+color: #555;
+}
+
+a:hover .medium{
+color: #03a87c;
+}
+
+
 /* COLOR */
 
 .bg-pollen-green{
