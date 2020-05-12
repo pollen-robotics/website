@@ -21,6 +21,11 @@
     border-style: none;
 }
 
+.homepage-press p{
+    margin-top: 1em;
+    line-height: 1.8em;
+}
+
 .homepage-press .card, 
 .homepage-press .card-body, 
 .homepage-press .card-footer, 
@@ -68,6 +73,22 @@
     margin: 0rem;
 }
 
+.homepage-reachy-text{
+    padding-left: 2rem;
+}
+/* 
+.homepage-press-section{
+    padding-left: 3rem;
+    padding-right: 3rem;
+} */
+
+
+@media screen and (min-width: 1200px) {
+    .homepage-reachy-text{
+        padding-left: 0rem;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -94,6 +115,7 @@
         margin-bottom: 1rem;
     }
 
+
 }
 
 @media screen and (max-width: 600px) {
@@ -105,5 +127,5 @@
     .homepage-blog h3{
         font-size: 1.4rem;
     }
-    
+
 }

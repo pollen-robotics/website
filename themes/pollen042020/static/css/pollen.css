@@ -1,5 +1,6 @@
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;700&family=Montserrat:wght@200;300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap'); */
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +20,7 @@ h1{
 }
 
 h2{
-    font-family: 'Cormorant';
+    font-family: 'Cormorant', serif;
     font-weight: 300;
 }
 
@@ -36,13 +37,15 @@ h3{
 @media screen and (min-width: 601px) {
 
     p{
-        margin-top: 2rem;
+        margin-top: 0rem;
         margin-bottom: 2rem;
+        line-height: 2rem;
     }
     
     h1{
         font-size: 4rem;
-        margin-bottom: 1.5rem;
+        line-height: 4rem;
+        margin-bottom: 1rem;
     }
 
     h2{
@@ -148,7 +151,7 @@ a:hover{
     text-transform: uppercase;
     border-bottom: solid;
     border-radius: 0px;
-    border-width: 0px 0px 4px 0px;
+    border-width: 0px 0px 2px 0px;
     padding: 0px;
     margin-top: 2rem;
     margin-bottom: 2rem;
