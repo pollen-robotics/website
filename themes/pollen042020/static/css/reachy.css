@@ -1,0 +1,31 @@
+
+#header .reachy-header{
+    margin-bottom: 0rem;
+}
+
+
+.reachy-nav .container{
+    height: 70px;
+}
+
+
+.reachy-nav a:hover{
+    color:#5AADAA;
+}
+
+.reachy-nav .nav-link{
+    color: black;
+    padding: 0px;
+    font-weight: 600;
+    margin: 0px 10px 0px 10px;
+    text-transform: uppercase;
+}
+
+.reachy-nav .nav-link.active{
+    background-color: unset;
+    color: black;
+    border-bottom: solid;
+    border-radius: 0px;
+    border-width: 0px 0px 3px 0px;
+}
+
