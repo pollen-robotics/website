@@ -1,0 +1,110 @@
+[[projet]]
+    title = "Reachy software"
+    publish = true
+    techno = "Python"
+    licence = "Apache 2.0"
+    category = "Software"
+    source = "https://github.com/pollen-robotics/reachy"
+    image = "/img/opensource/reachy_software.jpg"
+    description = "Python 3 library used to program Reachy and develop your own application"
+
+[[projet]]
+    title = "Reachy Package"
+    publish = true
+    techno = "Unity"
+    licence = "Apache 2.0"
+    category = "Software"
+    source = "https://github.com/pollen-robotics/reachy-unity-package"
+    image = "/img/opensource/unity_reachy.jpg"
+    description = "Unity package to use Reachy in your simulation (or your video game ;)."
+
+[[projet]]
+    title = "Reachy v1.0"
+    publish = true
+    techno = "CAO"
+    category = "Hardware"
+    licence = "CC-BY-SA 4.0"
+    source = "https://cad.onshape.com/documents/1421ccd39e44a58e78a9c966/"
+    image = "/img/opensource/onshape_reachy.jpg"
+    description = "CAO assembly of Reachy." 
+
+[[projet]]
+    title = "Reachy Tic Tac Toe App"
+    publish = true
+    techno = "Python"
+    licence = "Apache 2.0"
+    category = "Application"
+    source = "https://github.com/pollen-robotics/reachy-tictactoe"
+    image = "/img/opensource/application_tictactoe.jpg"
+    description = "Complete application to make Reachy play Tic Tac Toe."
+
+[[projet]]
+    title = "Reachy Blender models"
+    publish = true
+    techno = "Blender"
+    licence = "CC-BY-SA 4.0"
+    category = "Software"
+    source = "https://github.com/pollen-robotics/reachy-blender"
+    image = "/img/opensource/blender_reachy.jpg"
+    description = "Reachy Blender models for creative people."
+
+[[projet]]
+    title = "Reachy Head Module"
+    publish = true
+    techno = "CAO"
+    licence = "CC-BY-SA 4.0"
+    category = "Hardware"
+    source = "https://cad.onshape.com/documents/5a9e7c88f6e1068df540bf7a/"
+    image = "/img/opensource/onshape_head_module.jpg"
+    description = "CAO models of the reachy head with its cute antennas"
+
+[[projet]]
+    title = "Reachy Trunk Module"
+    publish = true
+    techno = "CAO"
+    licence = "CC-BY-SA 4.0"
+    category = "Hardware"
+    source = "https://cad.onshape.com/documents/0306aa0a644dba7cf10899a8/"
+    image = "/img/opensource/onshape_trunk_module.jpg"
+    description = "CAO models of the reachy trunk."
+
+[[projet]]
+    title = "Reachy Gripper Module"
+    publish = true
+    techno = "CAO"
+    licence = "CC-BY-SA 4.0"
+    category = "Hardware"
+    source = "https://cad.onshape.com/documents/4456e4d7aa9833296dc141b2/"
+    image = "/img/opensource/onshape_gripper_module.jpg"
+    description = "CAO models of the force sensing gripper module."
+
+[[projet]]
+    title = "Reachy Arm Module"
+    publish = true
+    techno = "CAO"
+    licence = "CC-BY-SA 4.0"
+    category = "Hardware"
+    source = "https://cad.onshape.com/documents/2cd541150588bd17e3473399/"
+    image = "/img/opensource/onshape_arm_module.jpg"
+    description = "CAO models of the 7-Dofs bio-inspired robotic arm standard and performance version."
+
+[[projet]]
+    title = "Reachy Documentation"
+    publish = true
+    techno = "Unity"
+    licence = "Apache 2.0"
+    category = "Software"
+    source = "https://github.com/pollen-robotics/reachy-docs"
+    image = "/img/opensource/reachy_documentation.jpg"
+    description = "Overall documentation for using Reachy."
+
+
+[[projet]]
+    title = "Orbita joint"
+    publish = true
+    techno = "CAO"
+    licence = "CC-BY-SA-NC"
+    category = "Hardware"
+    source = "https://cad.onshape.com/documents/5ca7f684d33fbcace89ad4d3/"
+    image = "/img/opensource/onshape_orbita.jpg"
+    description = "CAO models for our incredible Orbita joint."

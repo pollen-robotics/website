@@ -70,7 +70,7 @@ h3{
     
     h1{
         text-align: center;
-        font-size: 3rem;
+        font-size: 3.8rem;
         margin-bottom: 1.5rem;
     }
 
@@ -172,6 +172,10 @@ a:hover.btn-link{
 }
 
 
+.btn-link>i{
+    font-size: 1.5em;
+}
+
 
 
 /* FOOTER */
@@ -229,6 +233,15 @@ footer hr{
 #popup_order p {
     text-align: center;
   }
+
+/* CARD */
+
+.card-footer .btn-link{
+    font-size: 0.9em;
+    color: #333;
+    border-style: none;
+    margin: 0rem;
+}
 
 /* SOCIAL */
 
@@ -307,3 +320,40 @@ color: #03a87c;
     background-color: #F1887F;
     color: #fff;
 }
+
+
+/* Custom section */
+
+/* Open source page */
+.opensource-project-section{
+    background-color: #f8f9fa;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#content .opensource-project-section .container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.opensource-card{
+    display: flex;
+    flex:1 0 auto;
+}
+
+.opensource-card .card-text{
+    font-size: 0.9rem;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+
+.opensource-card .card-footer{
+    border-width: 0px 0px 0px 0px;
+    background-color: unset;
+}
+
+.col.opensource-card{
+    margin-top:8px;
+    padding:8px;
+}
+
