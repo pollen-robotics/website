@@ -3,7 +3,7 @@
 {{ define "header"}}
 
 <div class="container"> 
-  <h1>{{.Title}}</h1>
+  <h1>{{.Title}} </h1>
   <div class="row">
     <div class="col-lg-7 order-lg-0 order-2">
           <span class="lead">
@@ -15,12 +15,12 @@
                 <a class="btn btn-link" href="https://forum.pollen-robotics.com/" role="button"><i class="fab fa-discourse"></i> Join the community  &#8594;</a>
             </div>
             <div class="col-md-6">
-                <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button"><i class="fab fa-github"></i>  Check our Github &#8599;</a>
+                <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="blank"><i class="fab fa-github"></i>  Check our Github &#8599;</a>
             </div>
       </div>
     </div> 
     <div class="col-lg-5 pt-5">
-      <img src="/img/opensource/hubert_bonisseur_de_la_bath.jpg" class="img-fluid" alt="">
+      <img src="{{.Params.image}}" class="img-fluid" alt="">
     </div>
   </div>
 </div>
@@ -32,7 +32,8 @@
     <div class="row justify-content-center">
       <div class="col-12">
 
-        <h2>Browse our open source projects</h2>
+        <h2 class="mb-2">{{ .Params.project_grid_title }}</h2>
+        <p class="lead text-center">{{ .Params.project_grid_comment}}</p>
 
         <!-- <ul class="list-group list-group-horizontal">
           <li class="list-group-item">Software <span class="badge badge-primary badge-pill">8</span></li>
