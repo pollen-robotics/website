@@ -2,7 +2,7 @@ baseURL = "https://www.pollen-robotics.com/"
 languageCode = "en-us"
 title = "Pollen Robotics"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "sitemap", "RSS"]
-googleAnalytics = "UA-92714924-1"
+googleAnalytics = "UA-164958440-1"
 
 [params]
 description = "Pollen Robotics site description"
