@@ -1,16 +1,17 @@
 ---
-title: "Our Team"
+title: "About Pollen Robotics"
 date: 2020-03-30T15:52:45+02:00
-draft: true
-description: Discover who we are !
+draft: false
+description: "We are creative people "
+image: "/img/company/team/team.jpg"
 ---
 
 ## At the start of it all...
 Pollen robotics was founded in 2016 by Matthieu and Pierre, two former developmental robotics lab researchers from the Flowers team at reknown French research center INRIA. 
 
-With more than 10 years of experience in AI and robotics, as well as great successes such as [Poppy](https://www.youtube.com/watch?v=P15V3UwmXnc), in 2019 Pierre and Matthieu created Reachy, an accessible platform for exploring AI and robotics.
+With more than 10 years of experience in AI and robotics, as well as great successes such as [Poppy](https://www.youtube.com/watch?v=P15V3UwmXnc), Pierre and Matthieu created Reachy, an accessible platform for exploring AI and robotics.
 
----
+
 
 ## What we stand for
 User interaction is at the heart of our design: our robots are able to evolve in a complex and unconstrained world where man/robot understanding and mutual acceptance are necessary
@@ -21,25 +22,12 @@ Pretty much everything we make is open-source. Open software, open hardware, ope
 
 We bring simple, elegant and user-friendly design to our customers so they stay focused on their very own application of AI robotics
 
---- 
+
 
 ## Who we are today
 
-Pollen Robotics is a team of 4 people, all based in Bordeaux (France) :
+{{< show_team >}}
 
-- Matthieu Lapeyre
-    - Co-founder & CEO
-    - Ph.D. Robotics Design INRIA
-
-- Pierre Rouanet
-    - Co-founder & CTO
-    - Ph.D. Artificial Intelligence INRIA
-
-- Augustin Crampette
-    - Production & Research engineer
-
-- Elsa Kervella
-    - Business Development Manager
 
 
 ##  Be part of the adventure!

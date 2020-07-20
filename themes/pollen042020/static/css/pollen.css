@@ -252,7 +252,8 @@ footer hr{
 .icon-social-black{
     font-size: 1.5em;
     color: black;
-    padding-left: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
   }
   
 .icon-social-white{

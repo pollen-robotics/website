@@ -17,7 +17,7 @@
             <div class="col-md-6">
                 <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="blank"><i class="fab fa-github"></i>  Check our Github &#8599;</a>
             </div>
-      </div>
+          </div>
     </div> 
     <div class="col-lg-5 pt-5">
       <img src="{{.Params.image}}" class="img-fluid" alt="">
@@ -47,25 +47,24 @@
 
         <div class="row row-cols-lg-4 row-cols-md-3 row-cols-2">
           {{range $.Site.Data.opensource.projet }}
-          {{if .publish}}
-            <div class="col opensource-card">
-            <div class="card">
-              <img src="{{ .image }}" class="card-img-top" alt="{{.title}} image">
-              <div class="card-body">
-                <h6 class="card-subtitle mb-2 text-muted"> <em> {{ .category }}</em></h6>
-                <h5 class="card-title">{{ .title }}</h5>
+            {{if .publish}}
+              <div class="col opensource-card">
+              <div class="card">
+                <img src="{{ .image }}" class="card-img-top" alt="{{.title}} image">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted"> <em> {{ .category }}</em></h6>
+                  <h5 class="card-title">{{ .title }}</h5>
 
-                <p class="card-text">{{ .description }}</p>
-              </div>
-              <div class="card-footer">
-                <p class="card-subtitle mb-2 text-muted"><i class="fas fa-bookmark"></i> License {{ .licence }}</p>
-                <a href="{{ .source }}" class="btn-link" target="blank">See source &#8599;</a>
-                
+                  <p class="card-text">{{ .description }}</p>
+                </div>
+                <div class="card-footer">
+                  <p class="card-subtitle mb-2 text-muted"><i class="fas fa-bookmark"></i> License {{ .licence }}</p>
+                  <a href="{{ .source }}" class="btn-link" target="blank">See source &#8599;</a>
+                  
+                </div>
               </div>
             </div>
-          </div>
-          {{else}}
-          {{end}}
+            {{end}}
           {{end}}
         </div>
 

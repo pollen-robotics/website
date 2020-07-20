@@ -1,0 +1,119 @@
+[[people]]
+    name = "Matthieu Lapeyre"
+    title = "Co-Founder & CEO"
+    photo = "/img/company/team/matthieu_lapeyre.jpg"
+    academic = "Ph.D in Robotics, former researcher @ Inria"
+    comment = "Lovely robot designer"
+    linkedin = "matthieulapeyre"
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Pierre Rouanet"
+    title = "Co-Founder & CTO"
+    photo = "/img/company/team/pierre_rouanet.jpg"
+    academic = "Ph.D in Artificial Intelligence, former researcher @ Inria"
+    comment = "Software architect for simple yet powerful robotic API"
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Elsa Kervella"
+    title = "Business Development Manager"
+    photo = "/img/company/team/elsa_kervella.jpg"
+    academic = "BizDev"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Augustin Crampette"
+    title = "R&D Engineer"
+    photo = "/img/company/team/augustin_crampette.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Ilona Ambrutseva"
+    title = "Business developper"
+    photo = "/img/company/team/augustin_crampette.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Simon Le Goff"
+    title = "R&D Engineer"
+    photo = "/img/company/team/augustin_crampette.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Gaëlle Lanuzel"
+    title = "R&D Engineer"
+    photo = "/img/company/team/augustin_crampette.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/matthieulapeyre/"
+    [[people.social]]
+        name = "twitter"
+        src = "https://twitter.com/matth_lapeyre"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/matthieu-lapeyre"
+
+[[people]]
+    name = "Marcel"
+    title = "Chief Laziness Officer"
+    photo = "/img/company/team/marcel.jpg"
+    academic = "BizDev"
+    comment = "Dog version of Jeff Lebowski"
