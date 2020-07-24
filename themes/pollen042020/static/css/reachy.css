@@ -1,8 +1,9 @@
 
-#header .reachy-header{
-    margin-bottom: 0rem;
+.reachy-header .list-group-item {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0;
 }
-
 
 .reachy-nav .container{
     height: 70px;
@@ -16,16 +17,84 @@
 .reachy-nav .nav-link{
     color: black;
     padding: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     font-weight: 600;
     margin: 0px 10px 0px 10px;
     text-transform: uppercase;
 }
+
+.reachy-nav .btn{
+    font-weight: 600;
+    border-color: #5AADAA;
+    color: #5AADAA;
+}
+
+.reachy-nav a:hover.btn{
+    color: white;
+    background-color: #77BBB9;
+    border-color: #77BBB9;
+}
+
 
 .reachy-nav .nav-link.active{
     background-color: unset;
     color: black;
     border-bottom: solid;
     border-radius: 0px;
-    border-width: 0px 0px 3px 0px;
+    border-width: 0px 0px 1px 0px;
 }
 
+.reachy-cards .card{
+    border: 0px;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.reachy-cards .card-body{
+ padding: 10px;
+}
+
+.reachy-cards .card-title{
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.reachy-cards .card-text{
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 150%;
+}
+
+.reachy-cards .card-footer{
+    border: 0px;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 150%;
+}
+
+.reachy-cards .card-footer .btn-link{
+    font-size: 1.1em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: solid;
+    border-radius: 0px;
+    border-width: 0px 0px 2px 0px;
+    padding: 0px;
+}
+
+.reachy-simulator-section{
+    background-color: #6080BE;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 70px!important;
+    margin-bottom: 70px!important;
+}

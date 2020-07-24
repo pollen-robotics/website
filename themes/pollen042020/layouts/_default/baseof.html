@@ -3,14 +3,20 @@
 <html lang="{{ .Site.LanguageCode }}">
 
     {{- partial "head.html" . -}}
+    {{ block "ugly-style" . -}}{{- end }}
 
     <body data-spy="scroll" data-target="#second-navbar" data-offset="50">
 
-        {{- partial "navbar.html" . -}}
-        
-        <div id="header">
-            {{- block "header" . }}{{- end }}
+        <div id="header-group">
+
+            {{- partial "navbar.html" . -}}
+            
+            <div id="header">
+                {{- block "header" . }}{{- end }}
+            </div>
+
         </div>
+        
         {{- block "subnav" . }}{{- end }}
         
         <div id="content">

@@ -66,7 +66,7 @@
 [[people]]
     name = "Ilona Ambrutseva"
     title = "Business developper"
-    photo = "/img/company/team/augustin_crampette.jpg"
+    photo = "/img/company/team/ilona_ambrutseva.jpg"
     academic = "Mechatronics"
     comment = ""
     [[people.social]]
@@ -82,7 +82,7 @@
 [[people]]
     name = "Simon Le Goff"
     title = "R&D Engineer"
-    photo = "/img/company/team/augustin_crampette.jpg"
+    photo = "/img/company/team/simon_le-goff.jpg"
     academic = "Mechatronics"
     comment = ""
     [[people.social]]
@@ -96,9 +96,9 @@
         src = "https://github.com/matthieu-lapeyre"
 
 [[people]]
-    name = "Gaëlle Lanuzel"
+    name = "Gaëlle Lannuzel"
     title = "R&D Engineer"
-    photo = "/img/company/team/augustin_crampette.jpg"
+    photo = "/img/company/team/gaelle_lannuzel.jpg"
     academic = "Mechatronics"
     comment = ""
     [[people.social]]

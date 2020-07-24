@@ -2,8 +2,8 @@
 title: "About Pollen Robotics"
 date: 2020-03-30T15:52:45+02:00
 draft: false
-description: "We are creative people "
-image: "/img/company/team/team.jpg"
+description: "We are a team of creative and passionate people, playing together with new technologies to create unique products."
+image: "/img/company/team/les_kooks.jpg"
 ---
 
 ## At the start of it all...
@@ -14,13 +14,13 @@ With more than 10 years of experience in AI and robotics, as well as great succe
 
 
 ## What we stand for
-User interaction is at the heart of our design: our robots are able to evolve in a complex and unconstrained world where man/robot understanding and mutual acceptance are necessary
+User interaction is at the heart of our design: our robots are able to evolve in a complex and unconstrained world where man/robot understanding and mutual acceptance are necessary.
 
 
-Pretty much everything we make is open-source. Open software, open hardware, open data...We aim to foster knowledge-sharing in the community to kick-start the AI revolution
+Pretty much everything we make is open-source. Open software, open hardware, open data...We aim to foster knowledge-sharing in the community to kick-start the AI revolution.
 
 
-We bring simple, elegant and user-friendly design to our customers so they stay focused on their very own application of AI robotics
+We bring simple, elegant and user-friendly design to our customers so they stay focused on their very own application of AI robotics.
 
 
 
