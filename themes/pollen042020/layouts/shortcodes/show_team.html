@@ -1,0 +1,26 @@
+
+<div class="row row-cols-lg-4 row-cols-2 team">
+    {{range $.Site.Data.team.people }}
+        <div class="col opensource-card">
+        <div class="card">
+          <img src="{{ .photo }}" class="card-img-top" alt="{{.title}} image">
+          <div class="card-body">
+            <h5 class="card-title">{{ .name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted"> <em> {{ .title }}</em></h6>
+            <p class="card-text">{{ .comment }}</p>
+          </div>
+          <div class="card-footer">
+            
+            <ul class="list-group list-group-horizontal">
+                {{range .social}}      
+                <li class="list-group-item border-0 p-0 mb-2">
+                    <a href="{{.src}}" target="_blank" ><i class="fab fa-{{.name}} icon-social-black {{.name}}"></i></a>
+                </li>
+                {{end}}
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    {{end}}
+</div>
