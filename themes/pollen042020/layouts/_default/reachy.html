@@ -56,7 +56,7 @@
 
         </ul>
         <form class="form-inline">
-          <a href="buy" class="btn">Order</a>
+          <a href="order" class="btn">Get Your Reachy</a>
         </form>
     </div>
 </nav>
@@ -485,20 +485,6 @@
     </div>
   </div>
 
-
-<div id="pack" class="bg-light">
-  
-  <div class="container">
-    <h2>Discover our packs</h2>
-    <p class="lead"> Kickstart your project with one of our ready-to-use packs
-    </p>
-    
-    {{ .Scratch.Set "product_list" .Params.pricing }}
-    {{partial "compare_product.html" . }}
-  </div>
-
-
-</div>
 
 <div id="documentation">
 
