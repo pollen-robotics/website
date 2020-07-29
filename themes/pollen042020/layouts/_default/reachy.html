@@ -34,7 +34,7 @@
               <div class="col"><i class="fas fa-angle-right mx-2"></i>Design & Made in France <img src="https://www.countryflags.io/fr/flat/24.png"></div>
         </div>
 
-        <p class="lead"> Starting at 7500€</p>
+        <p class="lead"> Starting at 6490€</p>
 
         
     </div>
@@ -52,11 +52,11 @@
             <li class="nav-item"> <a class="nav-link" href="#features">Features</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#development">Development</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#services">Services</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#specs">Specs</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#documentation">Documentation</a> </li>
 
         </ul>
         <form class="form-inline">
-          <a href="order" class="btn">Get Your Reachy</a>
+          <a href="https://form.typeform.com/to/OG88Go2g" class="btn typeform-share button" data-submit-close-delay="0" target="_blank">Get Your Reachy</a>
         </form>
     </div>
 </nav>
@@ -278,7 +278,8 @@
       <p class="lead">Customize your own Reachy only with the modules you need for your specific application. Make your Reachy evolve over time by adding new modules.</p>
 
       
-      <a class="btn btn-link" href="/order" role="button">Get your own Reachy &#8594;</a>
+
+      <a href="https://form.typeform.com/to/OG88Go2g" class="btn btn-link typeform-share button" data-submit-close-delay="0" target="_blank">Get your own Reachy</a>
     
     </div>
 
@@ -329,6 +330,7 @@
             <p class="card-text">We provide an accessible and complete Python library to easily program Reachy.</p>
           </div>
           <div class="card-footer">
+            
             <a class="btn btn-link" href="http://playground.pollen-robotics.com/" role="button">Check Documentation &#8594;</a>
           </div>
         </div>
@@ -437,19 +439,8 @@
   </div>
 </div>
 
-
-
   
 <div id="services" class="anchor"></div>
-<hr>
-
-<div class="container">
-
-  
-
-
-</div>
-
 
 <div class="container">
   <div class="row justify-content-center">
@@ -470,21 +461,27 @@
     </div>
 </div>
 
-<div id="specs" class="anchor"></div>
 <hr>
 
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-10 text-center">
-      <h2>Technical Specifications</h2>
-      <p class="lead">We own a complete control and expertise over the Reachy platform and we like pushing the limit. Take a look at our services offer.</p>
+      <h2>Tailor Reachy for your application</h2>
+      <p class="lead">Reachy is now available in several configuration.<br>Please click on the button below and fill out the form to explain us what you plan to do.</p>
 
-      <a class="btn btn-link" href="/contact" role="button">Discover our services &#8594;</a>
+      <a href="https://form.typeform.com/to/OG88Go2g" class="btn btn-link typeform-share button" data-submit-close-delay="0" target="_blank">Get Your Reachy</a>
+
     </div> 
-
-    </div>
   </div>
+  <div class="row">
+    <a href="https://form.typeform.com/to/OG88Go2g" class="typeform-share button" data-submit-close-delay="0" target="_blank">
+    <img class="img-fluid mx-auto" src="/img/reachy/reachy_packs.jpg">
+  </a>
+  </div>
+</div>
 
+<div id="documentation" class="anchor"></div>
+<hr>
 
 <div id="documentation">
 
@@ -498,20 +495,13 @@
   </div>
 </div>
   
-  <div class="container text-center">
-    <h2>Technical specification</h2>
 
-  
-    {{.Scratch.Set "technical" .Params.technical}}
-    {{partial "technical_info.html" .}}
-
-
-  </div>
-</div>
 
 
 {{ end }}
 
 {{ define   "custom-scripts"}}
-  {{partial "popup_order_form_custom_script.html" .}}
+<script> 
+  (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() 
+</script>
 {{end}}
