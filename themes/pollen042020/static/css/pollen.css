@@ -294,8 +294,11 @@ color: #03a87c;
 
 
 .bg-pollen-green{
-    background: linear-gradient(rgb(146, 209, 207), rgb(80, 153, 151)); 
+    /* background: linear-gradient(rgb(146, 209, 207), rgb(80, 153, 151));  */
     background-color: #77BBB9;
+    color: #fff;
+}
+.bg-pollen-green a{
     color: #fff;
 }
 
