@@ -5,6 +5,10 @@
     border-radius: 0;
 }
 
+/* .reachy-nav {
+    border-bottom: solid 1px;
+    border-color: grey;
+} */
 .reachy-nav .container{
     height: 70px;
 }
@@ -26,23 +30,24 @@
 
 .reachy-nav .btn{
     font-weight: 600;
-    border-color: #5AADAA;
-    color: #5AADAA;
+    border-color: #fff;
+    color: #fff;
+    background-color: #77BBB9;
 }
 
 .reachy-nav a:hover.btn{
     color: white;
-    background-color: #77BBB9;
-    border-color: #77BBB9;
+    background-color: #5AADAA;
+    border-color: #5AADAA;
 }
 
 
 .reachy-nav .nav-link.active{
-    background-color: unset;
-    color: black;
+    background-color:unset;
+    color: #5AADAA;
     border-bottom: solid;
     border-radius: 0px;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 3px 0px;
 }
 
 .reachy-cards .card{

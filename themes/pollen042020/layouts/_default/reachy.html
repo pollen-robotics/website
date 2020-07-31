@@ -3,7 +3,7 @@
   #header-group {
     /* background: linear-gradient(rgb(250, 219, 157),rgb(252, 206, 116));  */
     background-color: #FDD689;
-    background-image: url('/img/reachy/reachy_transparent.png');
+    background-image: url('../img/reachy/reachy_transparent.png');
     background-position: left bottom;
     background-size: 50vw;
     background-repeat: no-repeat;
@@ -24,17 +24,21 @@
 
 
         <div class="row row-cols-md-2 row-cols-1 pb-5">
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>Object Manipulation</div>
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>Interaction</div>
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>AI</div>
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>Open source hardware</div>
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>Open source software</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Objects Manipulation</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Open source Software</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Interactivity</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Open source Hardware</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Artificial Intelligence</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>3D printed</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Evolutive & Modular</div>
               <div class="col"><i class="fas fa-angle-right mx-2"></i>Python API</div>
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>Expressive</div>
-              <div class="col"><i class="fas fa-angle-right mx-2"></i>Design & Made in France <img src="https://www.countryflags.io/fr/flat/24.png"></div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Fully programmable</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>ROS Compatible</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Customizable</div>
+              <div class="col"><i class="fas fa-angle-right mx-2"></i>Made in France <img src="https://www.countryflags.io/fr/flat/24.png"></div>
         </div>
 
-        <p class="lead"> Starting at 6490€</p>
+        <p class="lead" style="font-size: 1.2rem;">Starting at 6 490€</p>
 
         
     </div>
@@ -45,7 +49,7 @@
 
 {{ define "subnav"}}
 
-<nav id="second-navbar" class="navbar sticky-top navbar-expand-lg bg-white reachy-nav">
+<nav id="second-navbar" class="navbar sticky-top navbar-expand-lg bg-white reachy-nav shadow">
     <div class="container justify-content-center">
         <ul class="nav nav-pills">
             <li class="nav-item"> <a class="nav-link" href="#discover">What's Reachy</a> </li>
@@ -83,7 +87,7 @@
   <div class="row justify-content-center">
     <div class="col-10">
       <h2>Reachy is super versatile.</h2>
-      <p class="lead">Whether you’re a researcher, an academic, a creative or an innovation professional, Reachy is a cool solution for you to explore and develop AI and robotics.</p>
+      <p class="lead">Whether you’re a researcher, an academic, a creative or an innovation professional, Reachy is probably the best solution for you to learn, explore and develop AI and robotics.</p>
     </div>
   </div>
   <div class="row justify-content-center reachy-cards">
@@ -127,6 +131,9 @@
               <div class="card-body p-0">
                 <p class="card-text"><em>{{.comment}}</em></p>
               </div>
+              <div class="card-footer pl-0">
+                <a href="{{.source}}" role="button" style="color: black;">read the full article &#8599;</a>
+              </div>
           </div>
           {{end}}
       </div>
@@ -137,7 +144,7 @@
   <div class="row justify-content-center">
     <div class="col-10 text-center">
       <h2>Finally, bring robotic application in the Real World!</h2>
-      <p class="lead">Reachy is designed to evolve among humans. He is safe and pleasant to interact with and he can make himself useful by taking or giving objects </p>
+      <p class="lead">Reachy is designed to evolve among humans. He is safe and pleasant to interact with and he can make himself useful by taking/giving objects, welcome and give direction to people. He is also a perfect platform to explore and understand stat-of-the-art AI & Robotics technologies.</p>
     </div>
   </div>
   <div class="row pt-5">
@@ -162,23 +169,13 @@
 <div id="features" class="anchor pt-5 pb-5">
 
   <div class="container">
-    <div class="row">
-      <div class="col-10">
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
         <h2>All-in-one Robotics and AI humanoid platform</h2>
         <p class="lead">Reachy elegantly brings object manipulation, expressivity, machine learning, human-robot interaction in one easy-to-use platform that you can install anywhere you need.</p>
       </div>
     </div>
   </div>
-
-
-<div class="container-fluid">
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="img-fluid mx-auto shadow">
-    <source src="{{ "video/reachy-tictactoe.mp4" | relURL }}" type="video/mp4">
-  </video>
-</div>
-
-
-
 
 <div class="container">
   <div class="row justify-content-between">
@@ -208,8 +205,8 @@
     <div class="col-6">
       <h3>Modular advanced robotic arm for objects manipulation</h3>
       <p class="lead">Make Reachy useful thanks to his ability to manipulate objects and act on his environments. </p>
-      <p>With 7 DOF Reachy’s arms feature similar dimensions, proportions and movements as in an adult human arm. One arm can lift objects up to 500 grams and manipulate them with pretty good dexterity. </p>
-      <p>His tooltip gripper can be modified to fit at best the target application.</p>
+      <p>With 7 DOFs Reachy’s arms feature similar dimensions, proportions and movements as in an adult human arm. One arm can lift objects up to 500 grams and manipulate them with pretty good dexterity. </p>
+      <p>His tooltip gripper can be modified to fit at best the targeted application.</p>
     </div>
 
   </div>
@@ -234,13 +231,19 @@
       <div class="row p-0">
 
         <div class="col-4 p-0">
-          <img class="img-fluid mx-auto" src="/img/tools/coral.png" alt="TODO">
+          <a href="https://coral.ai/" target="_blank">
+            <img class="img-fluid mx-auto" src="/img/tools/coral.png" alt="TODO">
+          </a>
         </div>
         <div class="col-4 p-0">
-          <img class="img-fluid mx-auto" src="/img/tools/tensorflow.png" alt="TODO">
+          <a href="https://www.tensorflow.org/" target="_blank">
+            <img class="img-fluid mx-auto" src="/img/tools/tensorflow.png" alt="TODO">
+          </a>
         </div>
         <div class="col-4 p-0">
-          <img class="img-fluid mx-auto" src="/img/tools/openai-gym.png" alt="TODO">
+          <a href="https://gym.openai.com/" target="_blank">
+            <img class="img-fluid mx-auto" src="/img/tools/openai-gym.png" alt="TODO">
+          </a>
         </div>
       </div>
 
@@ -263,8 +266,8 @@
       <h3>Easy to set up and autonomous without internet connection</h3>
       <p class="lead">Only 4 screws and a standard 110/220V power plug, it's all what you need to install and run Reachy.</p>
 
-      <p>You can easily fix reachy where you need with his simple mechanical interface.</p>
-      <p>His back provides access to common IO such as USB3.0, HMDI & Ethernet. You even have an extension hole if you want to extend Reachy with your own device.</p>
+      <p>You can easily attach reachy where you need it with his simple mechanical interface.</p>
+      <p>His back provides access to common connectivity such as USB3.0, HMDI, Ethernet, Bluetooth & Wifi. You even have an extension hole if you want to extend Reachy with your own device.</p>
       <p>Two on/off buttons give you the perfect control over Reachy's computer & motors power supply.</p>
     </div>
 
@@ -274,13 +277,8 @@
 <div class="container">
   <div class="row justify-content-between">
     <div class="col-6">
-      <h3>Modular and evolutive</h3>
-      <p class="lead">Customize your own Reachy only with the modules you need for your specific application. Make your Reachy evolve over time by adding new modules.</p>
-
-      
-
-      <a href="https://form.typeform.com/to/OG88Go2g" class="btn btn-link typeform-share button" data-submit-close-delay="0" target="_blank">Get your own Reachy</a>
-    
+      <h3>Fully customizable and evolutive</h3>
+      <p class="lead">Customize your own Reachy with only the modules you need for your specific application. Make your Reachy evolve over time by adding new modules and hardware updates.</p>
     </div>
 
     <div class="col-6 pr-0">
@@ -299,12 +297,18 @@
 <div id="development" class="anchor bg-light pt-5 pb-5">
 
 <div class="container mb-0">
-  <div class="row">
-    <div class="col-10">
-      <h3>A complete and efficient development platform</h3>
-      <p class="lead">Reachy provides ...</p>
+  <div class="row justify-content-center">
+    <div class="col-10 text-center">
+      <h2>A complete and efficient development platform</h2>
+      <p class="lead">Reachy packages the most common and powerful tools in one easy-to-use open source platform. He is designed so we can direclty learn, develop and experiment with him. Don't worry, if you want to take a risky move we have a simulator for that too. </p>
     </div>
   </div>
+</div>
+
+<div class="container mt-1 p-0">
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="img-fluid mx-auto shadow">
+    <source src="{{ "video/reachy-tictactoe.mp4" | relURL }}" type="video/mp4">
+  </video>
 </div>
 
 <!-- <div class="container p-0">
@@ -329,9 +333,8 @@
             <h4 class="card-title">Easy to use Python API</h4>
             <p class="card-text">We provide an accessible and complete Python library to easily program Reachy.</p>
           </div>
-          <div class="card-footer">
-            
-            <a class="btn btn-link" href="http://playground.pollen-robotics.com/" role="button">Check Documentation &#8594;</a>
+          <div class="card-footer">  
+           <a class="btn btn-link" href="http://playground.pollen-robotics.com/" role="button">Check Documentation &#8594;</a>
           </div>
         </div>
 
@@ -343,7 +346,7 @@
               We provide ready-to-use smart behaviors and pre-trained models based on Tensorflow 2. Reachy embeds a TPU that can run, for example, PoseNet at 45FPS.</p>
           </div>
           <div class="card-footer">
-            <!-- <a class="btn btn-link" href="" role="button"> &#8594;</a> -->
+            <a class="btn btn-link" href="https://www.tensorflow.org/lite" role="button" target="blank"> Learn more &#8594;</a>
           </div>
         </div>
 
@@ -362,28 +365,18 @@
 </div>
 
 <div class="container">
+
   <div class="row">
-    <div class="col-4">
-      <img class="img-fluid mx-auto" src="/img/opensource/onshape_head_module.jpg" alt="TODO">
-      <h4 class="mt-3">Open source hardware</h4>
-      <p>Feel free to modify Reachy's software and build your application, it is open source and under the very permissive Apache 2.0 License.</p>
-      <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="_blank">Get CAD Models &#8594;</a>
+    <div class="col-6 pl-0">
+      <a href="http://playground.pollen-robotics.com/" role="button" target="_blank"><img src="/img/reachy/simulator.jpg" class="img-fluid" alt="TODO"></a>
     </div>
 
+    <div class="col-6">
+      <h3 >Just try it, it's free!</h3>
+      <p>Our online simulator will let you test the same Python’s API used for Reachy but on a 3D model so you can evaluate the ease of use.</p>
+      
+      <a class="btn btn-link" href="http://playground.pollen-robotics.com/" role="button" target="_blank">Launch the online simulator &#8599;</a>
 
-    <div class="col-4">
-      <img class="img-fluid mx-auto" src="/img/tools/opensource.png" alt="TODO">
-      <h4 class="mt-3">Open source software</h4>
-      <p>Feel free to modify Reachy's software and build your application, it is open source and under the very permissive Apache 2.0 License.</p>
-      <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="_blank">Check our Github &#8594;</a>
-    </div>
-  
-
-    <div class="col-4">
-      <img class="img-fluid mx-auto" src="/img/reachy/community.jpg" alt="TODO">
-      <h4 class="mt-3">Community</h4>
-      <p>Feel free to modify Reachy's software and build your application, it is open source and under the very permissive Apache 2.0 License.</p>
-      <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="_blank">Join the community &#8594;</a>
     </div>
 
 
@@ -392,11 +385,61 @@
 
 <div class="container">
   <div class="row">
+    <div class="col-10">
+      <h3>A genuine open source and transparent platform</h3>
+      <p class="lead">Reachy respects and promotes open source & transparent technologies. It's a core value for our team as a way to ensure new technologies will benefit people and not the opposite...</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <a href="/opensource/" target="_blank">
+        <img class="img-fluid mx-auto" src="/img/opensource/onshape_head_module.jpg" alt="TODO">
+      </a>
+      <h4 class="mt-3">Open source hardware</h4>
+      <p>CAD models are open and distributed under Creative Commons BY-SA license.</p>
+    </div>
+
+
+    <div class="col-4">
+      <a href="https://github.com/pollen-robotics/" target="_blank">
+        <img class="img-fluid mx-auto" src="/img/tools/opensource.png" alt="TODO">
+      </a>
+      <h4 class="mt-3">Open source software</h4>
+      <p>Full source code is available under Apache 2.0 License.</p>
+    </div>
+  
+
+    <div class="col-4">
+      <a href="https://forum.pollen-robotics.com/" target="_blank">
+        <img class="img-fluid mx-auto" src="/img/reachy/community.jpg" alt="TODO">
+      </a>
+      <h4 class="mt-3">Community</h4>
+      <p>Get news and support on our community</p>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <a class="btn btn-link" href="/opensource/" role="button" target="_blank">Check our open source repositories &#8594;</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-10">
+      <h3>Advanced tools for advanced applications</h3>
+      <p class="lead">We regulary release new tools to extend the Reachy's possibilities.</p>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-4">
       <img class="img-fluid mx-auto" src="/img/reachy/reachy_vr.jpg" alt="TODO">
       <h4 class="mt-3">Teleoperate in VR</h4>
-      <p>Feel free to modify Reachy's software and build your application, it's open source and under the very permissive Apache 2.0 License.</p>
-      <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="_blank">Get CAD Models &#8594;</a>
+      <p>Teleporte yourself in reachy's body and take the control. Show him how to do stuffs and provide long distant operations.</p>
     </div>
 
 
@@ -405,16 +448,14 @@
         <source src="{{ "video/kinematics_dual.mp4" | relURL }}" type="video/mp4">
       </video>
       <h4 class="mt-3">Advanced Kinematics</h4>
-      <p>Feel free to modify Reachy's software and build your application, it's open source and under the very permissive Apache 2.0 License.</p>
-      <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="_blank">Check our Github &#8594;</a>
+      <p>Reachy comes with complete forward/inverse kinematics and advanced trajectories generation, you will love minimum jerk motions!</p>
     </div>
   
 
     <div class="col-4">
-      <img class="img-fluid mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/1200px-Ros_logo.svg.png" alt="TODO">
+      <img class="img-fluid mx-auto" src="/img/tools/ros.jpg" alt="TODO">
       <h4 class="mt-3">ROS compatible</h4>
-      <p>Feel free to modify Reachy's software and build your application, it's open source and under the very permissive Apache 2.0 License.</p>
-      <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="_blank">Join the community &#8594;</a>
+      <p>Integrate easily Reachy in your ROS environments.</p>
     </div>
 
 
@@ -422,22 +463,7 @@
 </div>
 
 </div>
-<div class="container-fluid reachy-simulator-section">
-  <div class="row">
-    <div class="col-7">
-      <img src="/img/reachy/simulator.jpg" class="img-fluid" alt="TODO">
-    </div>
 
-    <div class="col-5">
-      <h3 class="mt-0">Try it yourself. Right now!</h3>
-      <p>Our open source tool will let you send commands using our Python’s API to a 3D model of a full Reachy robot (both arms and a head) and see their effect on the simulated model.</p>
-      <a name="" id="" class="btn btn-lg btn-outline-light" href="http://playground.pollen-robotics.com/" role="button" target="_blank">Launch the online simulator</a>
-
-    </div>
-
-
-  </div>
-</div>
 
   
 <div id="services" class="anchor"></div>
@@ -445,20 +471,24 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-10 text-center">
-      <h2>We are here to help you bring your application to reality!</h2>
-      <p class="lead">We provide aditionnal services to secure and speed up your project, you won't be alone!</p>
+      <h2>It's dangerous to go alone!<br>Take our R&D team at your side.</h2>
     </div> 
-    <div class="row">
-      <div class="col-6">
-        <img class="img-fluid mx-auto" src="/img/reachy/app_development.jpg">
-      </div>
-      <div class="col-6">
-        <p>We own a complete control and expertise over the Reachy platform, from the AI to the little screw, we know way too much details about Reachy! </p>
-        <a class="btn btn-link" href="/contact" role="button">Discover our Services &#8594;</a>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-7 pr-4">
+      <img class="img-fluid mx-auto" src="/img/reachy/services.jpg">
+    </div>
+    <div class="col-5">
+      <p class="lead">Because getting a great interactive robot is only the first step, our <a href="/team" target="_blank"> <strong>R&D people</strong></a>  can provide extra services to help you along your journey. </p>
+        <div class="row row-cols-1">
+          <div class="col mb-3"><i class="fas fa-angle-right mx-2"></i>Advanced training AI/Robotics applied on Reachy</div>
+          <div class="col mb-3"><i class="fas fa-angle-right mx-2"></i>Specific feature development and hardware customization</div>
+          <div class="col mb-3"><i class="fas fa-angle-right mx-2"></i>Part or Full application development</div>
+    </div>
+        <a class="btn btn-link" href="/services" role="button">Discover our Services &#8594;</a>
       </div>
     </div>
-
-    </div>
+    
 </div>
 
 <hr>
@@ -469,7 +499,7 @@
       <h2>Tailor Reachy for your application</h2>
       <p class="lead">Reachy is now available in several configuration.<br>Please click on the button below and fill out the form to explain us what you plan to do.</p>
 
-      <a href="https://form.typeform.com/to/OG88Go2g" class="btn btn-link typeform-share button" data-submit-close-delay="0" target="_blank">Get Your Reachy</a>
+      <a href="https://form.typeform.com/to/OG88Go2g" class="btn btn-link typeform-share button" data-submit-close-delay="0" target="_blank">Get Your Reachy &#8594;</a>
 
     </div> 
   </div>
@@ -486,11 +516,24 @@
 <div id="documentation">
 
   <div class="container text-center">
-    <h2>Documentation</h2>
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dicta, sequi doloribus odit eum corrupti laudantium aperiam quibusdam quidem sint fugit, vero earum maiores porro dolorem esse? Nobis, pariatur libero.</p>
 
-    <a name="" id="" class="btn btn-link" href="https://pollen-robotics.github.io/reachy-docs/" role="button">Read the doc</a>
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <h2>Documentation</h2>
+        <p>We provide a continuously updated documentations and specifications to help you harness the full potential of Reachy.</p>
+      </div>
+    </div>
 
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <a name="" id="" class="btn btn-link" href="https://pollen-robotics.github.io/reachy-docs/" role="button">Check Specifications &#8594;</a>
+      </div>
+
+      <div class="col-4">
+        <a name="" id="" class="btn btn-link" href="https://pollen-robotics.github.io/reachy-docs/" role="button">Read the documentation &#8594;</a>
+      </div>
+
+    </div>
 
   </div>
 </div>
