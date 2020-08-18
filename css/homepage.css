@@ -1,0 +1,124 @@
+.homepage-reachy-section{
+    background: linear-gradient(#FFF 10%, #FDD589 10%);
+}
+
+
+.homepage-reachy-press{
+    background: linear-gradient(#FDD589 50%, #FFF 50%);
+}
+
+.homepage-press{
+    background: #F1F0F0;
+
+} 
+
+.homepage-press .card, 
+.homepage-press .card-footer{
+    background: #F1F0F0;
+    color: #333;
+    padding-left: 0rem;
+    font-size: 0.8rem;
+    border-style: none;
+}
+
+.homepage-press p{
+    margin-top: 1em;
+    line-height: 1.8em;
+}
+
+.homepage-press .card, 
+.homepage-press .card-body, 
+.homepage-press .card-footer, 
+.homepage-press .card-deck, 
+.homepage-press .card-img-top{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.homepage-press .card{
+    margin-right: 2rem;
+    margin-left: 0rem;
+}
+
+.homepage-press .card-deck{
+    margin-bottom: 3rem;
+}
+
+.homepage-press .card-body{
+    margin-bottom: 1rem;
+}
+
+
+.homepage-blog h3{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.homepage-blog .card-footer{
+    background: none;
+    border-style: none;
+}
+
+.homepage-blog .btn-link{
+    font-size: 1em;
+    border-style: none;
+    margin: 0rem;
+}
+
+.homepage-reachy-text{
+    padding-left: 2rem;
+}
+/* 
+.homepage-press-section{
+    padding-left: 3rem;
+    padding-right: 3rem;
+} */
+
+
+@media screen and (min-width: 1200px) {
+    .homepage-reachy-text{
+        padding-left: 0rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .homepage-reachy-section{
+        background: #FDD589;
+        padding-top: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .homepage-reachy-section h2{
+        font-size: 2.5em;
+    }
+
+    .homepage-press h3{
+        font-size: 2rem;
+    }
+
+    .homepage-press .card{
+        margin-right: 1rem;
+        margin-left: 0rem;
+    }
+
+    .homepage-press .card-deck{
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .homepage-reachy-section{
+        text-align: center;
+    }
+
+    .homepage-blog h3{
+        font-size: 1.4rem;
+    }
+
+}
