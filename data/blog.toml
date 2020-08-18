@@ -1,0 +1,15 @@
+[[blog]]
+    title = "We are releasing Reachy 3D modles for creative people"
+    date = "24-04-20"
+    source = "https://medium.com/pollen-robotics/we-are-releasing-reachys-models-for-creative-people-befe45b437fb"
+    image = "https://cdn-images-1.medium.com/max/1200/1*Pcdv8l12TvKVdyJFmdUjCQ.gif"
+    extract = "Get a new character for your adventure"
+    author = "Matthieu Lapeyre"
+
+[[blog]]
+    title = "In need for some AI/robotics exploration but no access to a physical robot? No problem."
+    date = "24-04-20"
+    source = "https://medium.com/pollen-robotics/in-need-for-some-ai-robotics-exploration-but-no-access-to-a-physical-robot-no-problem-5c2fa47eeece"
+    image = "https://cdn-images-1.medium.com/max/600/1*qnrPEeU5FNr35W42h-s6JQ.png"
+    extract = "We are introducing a new easy-to-use Reachy simulator"
+    author = "Pierre Rouanet"

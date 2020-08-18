@@ -1,0 +1,73 @@
+{{ define "header"}}
+
+<div class="container"> 
+  <h1>{{.Title}} </h1>
+  <div class="row">
+    <div class="col-lg-7 order-lg-0 order-2">
+          <span class="lead">
+            <p>{{.Params.Description | markdownify}}</p>
+          </span>
+
+          <div class="row justify-content-center text-center">
+            <div class="col-md-6">
+                <a class="btn btn-link" href="https://forum.pollen-robotics.com/" role="button"><i class="fab fa-discourse"></i> Join the community  &#8594;</a>
+            </div>
+            <div class="col-md-6">
+                <a class="btn btn-link" href="https://github.com/pollen-robotics/" role="button" target="blank"><i class="fab fa-github"></i>  Check our Github &#8599;</a>
+            </div>
+          </div>
+    </div> 
+    <div class="col-lg-5 pt-5">
+      <img src="{{.Params.image}}" class="img-fluid" alt="">
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<div class="container-fluid bg-pollen-green p-0 m-0">
+  <div class="row justify-content-center">
+    <div class="col-8 mt-5 mb-5 text-center">
+      <p class="lead p-0 m-0" style="font-size: 1.5em;"> {{.Params.offer | markdownify}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="opensource-project-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+
+        <h2 class="mb-2">{{ .Params.project_grid_title }}</h2>
+        <p class="lead text-center">{{ .Params.project_grid_comment}}</p>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-2">
+          {{range $.Site.Data.opensource.projet }}
+            {{if .publish}}
+              <div class="col opensource-card">
+              <div class="card">
+                <img src="{{ .image }}" class="card-img-top" alt="{{.title}} image">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted"> <em> {{ .category }}</em></h6>
+                  <h5 class="card-title">{{ .title }}</h5>
+
+                  <p class="card-text">{{ .description }}</p>
+                </div>
+                <div class="card-footer">
+                  <p class="card-subtitle mb-2 text-muted"><i class="fas fa-bookmark"></i> License {{ .licence }}</p>
+                  <a href="{{ .source }}" class="btn-link" target="blank">See source &#8599;</a>
+                  
+                </div>
+              </div>
+            </div>
+            {{end}}
+          {{end}}
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,29 @@
+[[item]]
+    site = "youtube"
+    name = "YouTube"
+    url = "https://www.youtube.com/c/pollenrobotics"
+
+[[item]]
+    site = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/pollenrobotics"
+
+[[item]]
+    site = "github"
+    name = "Github"
+    url = "https://github.com/pollen-robotics"
+
+[[item]]
+    site = "medium"
+    name = "Medium"
+    url = "https://medium.com/pollen-robotics"
+
+[[item]]
+    site = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/company/pollenrobotics"
+
+[[item]]
+    site = "facebook"
+    name = "Facebook"
+    url = "https://www.facebook.com/pollenrobotics/"

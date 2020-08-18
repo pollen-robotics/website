@@ -1,0 +1,30 @@
+{{ $imgpos := "2"}}
+{{ $textpos := "1"}}
+
+{{ if eq (.Get "img-left") true }}
+    {{ $imgpos = "1"}}
+    {{ $textpos = "2"}}
+{{ end }}
+
+<div class="row text-center">
+    <div class="col-md-7 order-md-{{ $textpos }} py-3">
+        <h2 class="featurette-heading"> {{ .Get "Title"}}</h2>
+        <p class="lead">{{.Inner | markdownify}}</p>
+        {{ if .Get "Button"}}
+            <a name="" id="" class="btn btn-primary" href="{{.Get "URL" }}" role="button">{{.Get "Button" }}</a>
+        {{ end }}
+    </div>
+    <div class="col-md-5 order-md-{{ $imgpos }}">
+        {{if .Get "video"}}
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="img-fluid mx-auto">
+            <source src="{{.Get "video" }}" type="video/mp4">
+          </video>
+        {{ end }}
+
+        {{if .Get "img"}}
+        <img class="featurette-image img-fluid mx-auto" src="{{.Get "img" }}"
+        alt="Generic placeholder image">
+        {{end}}
+    </div>
+</div>
+

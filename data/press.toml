@@ -1,0 +1,34 @@
+[[press]]
+    journal = "Engadget"
+    date = ""
+    source = "https://www.engadget.com/2020/01/05/reachy-is-an-expressive-open-source-robot/"
+    image = "/img/press/engadget-logo-black.png"
+    comment = "The robot, being open-source, is capable of so much more. Developers can use Python to create myriad applications for the system"
+
+[[press]]
+    journal = "TechCrunch"
+    date = ""
+    source = "https://techcrunch.com/2020/01/06/pollen-robotics-is-selling-a-17000-robot-torso-for-researchers-and-startups"
+    image = "/img/press/techcrunch-logo-black.png"
+    comment = "CES has never been a great show for serious robotics. Pollen Robotics certainly stands out from that crowd, offering a robotic torso named Reachy."
+
+[[press]]
+    journal = "Wire"
+    date = ""
+    source = "https://twitter.com/WIRED/status/1214350939567665155"
+    image = "/img/press/wired-logo-black.png"
+    comment = "Honestly, I just want Reachy at home to play games with. Forget marketing stuff, let's just have robots for games!"
+
+[[press]]
+    journal = "Tom's Hardware"
+    date = ""
+    source = "https://www.tomshardware.com/news/reachy-robot"
+    image = "/img/press/tomshardware-logo-black.png"
+    comment = "Raspberry Pi-Powered Reachy Robot Can Grab Almost Anything, Including Your Heart."
+
+[[press]]
+    journal = "The MagPi"
+    date = ""
+    source = "https://magpi.raspberrypi.org/articles/reachy"
+    image = "/img/press/magpi-logo-black.png"
+    comment = "Say hello to Reachy – a humanoid robot that you’re likely to love to bits when you first set eyes on it."
