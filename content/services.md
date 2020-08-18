@@ -4,6 +4,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in t
 date: 2020-03-30T15:52:45+02:00
 draft: true
 color: "dark-blue"
+layout: service
 ---
 
 ## Discover stuffs
