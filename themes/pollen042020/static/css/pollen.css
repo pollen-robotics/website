@@ -303,27 +303,47 @@ color: #03a87c;
 }
 
 .bg-pollen-yellow{
-    background: linear-gradient(rgb(250, 219, 157),rgb(252, 206, 116)); 
+    /* background: linear-gradient(rgb(250, 219, 157),rgb(252, 206, 116));  */
     background-color: #FDD689;
     color: #333;
 }
 
 .bg-pollen-dark-blue{
-    background: linear-gradient(#457999,#30556d); 
+    /* background: linear-gradient(#457999,#30556d);  */
     background-color: #396581;
     color: #fff;
 }
 
 .bg-pollen-blue{
-    background: linear-gradient(rgb(112, 148, 219),rgb(75, 100, 151)); 
+    /* background: linear-gradient(rgb(112, 148, 219),rgb(75, 100, 151));  */
     background-color: #6080BE;
     color: #fff;
 }
 
 .bg-pollen-red{
-    background: linear-gradient(rgb(253, 147, 137), rgb(221, 114, 104)); 
+    /* background: linear-gradient(rgb(253, 147, 137), rgb(221, 114, 104));  */
     background-color: #F1887F;
     color: #fff;
+}
+
+.color-pollen-green{
+    color: #77BBB9;
+}
+
+.color-pollen-yellow{
+    color: #FDD689;
+}
+
+.color-pollen-dark-blue{
+    color: #396581;
+}
+
+.color-pollen-blue{
+    color: #6080BE;
+}
+
+.color-pollen-red{
+    color: #F1887F;
 }
 
 

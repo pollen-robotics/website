@@ -67,6 +67,10 @@
     font-weight: 500;
 }
 
+.reachy-cards .card-title i{
+    font-size: 2rem;
+}
+
 .reachy-cards .card-text{
     padding-top: 10px;
     font-weight: 300;
@@ -94,6 +98,18 @@
     border-width: 0px 0px 2px 0px;
     padding: 0px;
 }
+
+
+.reachy-cards.reachy-domain .card-footer .btn-link{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
 
 .reachy-simulator-section{
     background-color: #396581;

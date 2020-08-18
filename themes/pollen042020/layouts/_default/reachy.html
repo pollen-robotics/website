@@ -83,41 +83,85 @@
   </div>
 </div>
 
+
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-10">
+    <div class="col-10 text-center">
+
       <h2>Reachy is super versatile.</h2>
       <p class="lead">Whether you’re a researcher, an academic, a creative or an innovation professional, Reachy is probably the best solution for you to learn, explore and develop AI and robotics.</p>
     </div>
   </div>
-  <div class="row justify-content-center reachy-cards">
-    <div class="col-12 p-0"></div>
-      <div class="card-deck">
-        <div class="card">
-          <div class="card-body">
-            <a href="https://www.howest.be/en" target="_blank"><img class="card-img-top" src="/img/clients/howest.jpg" alt="TODO"></a>
-            <h3 class="card-title">Academics</h3>
-            <p class="card-text"><a href="https://www.howest.be/en" target="_blank">Howest</a> is a Belgian technical university. Their ICT Bachelor students use Reachy as a tangible and visual solution to explore AI.</p>
-          </div>
-        </div>
 
-        <div class="card">
-          <div class="card-body">
-            <a href="https://medforall.com/" target="_blank"><img class="card-img-top" src="/img/clients/medforall.jpg" alt="TODO"></a>
-            <h3 class="card-title">Healthcare</h3>
-            <p class="card-text"><a href="https://medforall.com/" target="_blank">Medforall</a> is an American company that provides high quality patient care in the State of Ohio and aims to make Reachy a companion dependent home-patients (presenting a physical handicap or cognitive disorders).</p>
-          </div>
+  <div class="row row-cols-1 row-cols-md-3 reachy-cards reachy-domain justify-content-center">
+    {{ range .Params.domains}}
+    <div class="col mt-4 mb-5">
+      <div class="card ">
+        <div class="card-body">
+          <a data-toggle="modal" data-target="#modal{{.slug}}"><h5 class="card-title"><i class="fas {{.icon}} color-pollen-{{.color}}"></i> {{.title}}</h5></a> 
+          
+          <p class="card-text"><em>{{.short_text}}</em></p>
         </div>
-
-        <div class="card">
-          <div class="card-body">
-            <a href="https://www.mercari.com/" target="_blank"><img class="card-img-top" src="/img/clients/mercari.jpg" alt="TODO"></a>
-            <h3 class="card-title">Retail</h3>
-            <p class="card-text"><a href="https://www.mercari.com/" target="_blank">Mercari</a> is a Japanese e-commerce company that provides a selling app and marketplace. They use Reachy in their delivery service where the robot can pick up packages and hand them out to customers.</p>
-          </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#modal{{.slug}}">Learn more &#8599;</button> 
+        </div>
       </div>
-    </div>       
+    </div>
+
+    {{end}}
+
   </div>
+
+</div>
+
+{{ range .Params.domains}}
+<div class="modal fade" id="modal{{.slug}}" tabindex="-1" aria-labelledby="modal{{.slug}}Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal{{.slug}}Label"><i class="fas {{.icon}}"></i> Reachy for {{lower .title}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{.text | markdownify}}
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Continue</button>
+        <span class="reachy-nav">
+
+          <a href="https://form.typeform.com/to/OG88Go2g" class="btn btn-primary typeform-share button" data-submit-close-delay="0" target="_blank">Get Your Reachy</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}
+
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-10 text-center">
+      <h2>Finally, bring robotic application in the Real World!</h2>
+      <p class="lead">Reachy is designed to evolve among humans. He is safe and pleasant to interact with and he can make himself useful by taking/giving objects, welcome and give direction to people. He is also a perfect platform to explore and understand stat-of-the-art AI & Robotics technologies.</p>
+    </div>
+  </div>
+  <div class="row pt-5">
+    <div class="col-12">
+      <div class="row row-cols-md-3">
+        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/coffee.jpg"> </div>
+        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/drawing.jpg"> </div>
+        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/hotel.jpg"> </div>
+        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/covid.jpg"> </div>
+        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/reception.jpg"> </div>
+        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/street.jpg"> </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <div class="container">
@@ -140,32 +184,7 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-10 text-center">
-      <h2>Finally, bring robotic application in the Real World!</h2>
-      <p class="lead">Reachy is designed to evolve among humans. He is safe and pleasant to interact with and he can make himself useful by taking/giving objects, welcome and give direction to people. He is also a perfect platform to explore and understand stat-of-the-art AI & Robotics technologies.</p>
-    </div>
-  </div>
-  <div class="row pt-5">
-    <div class="col-12">
-      <div class="row">
-        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/coffee.jpg"> </div>
-        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/drawing.jpg"> </div>
-        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/hotel.jpg"> </div>
-    
-      </div>
-      <div class="row">    
-        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/covid.jpg"> </div>
-        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/reception.jpg"> </div>
-        <div class="col-4 p-2"><img class="img-fluid mx-auto" src="/img/reachy/applications/street.jpg"> </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-  <hr>
+<hr>
 <div id="features" class="anchor pt-5 pb-5">
 
   <div class="container">
@@ -196,8 +215,6 @@
 <div class="container">
   <div class="row justify-content-between">
     <div class="col-6 pl-0">
-      <!-- <img class="img-fluid mx-auto" src="/img/reachy/arm.jpg"
-      alt="TODO"> -->
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="img-fluid mx-auto">
         <source src="/video/flowers_square.mp4" type="video/mp4">
       </video>
