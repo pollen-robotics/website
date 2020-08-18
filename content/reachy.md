@@ -15,7 +15,7 @@ domains:
       title : HEALTCARE
       icon : fa-clinic-medical
       color : red
-      short_text : Reachy can replace the mechanical tasks execution. Moreover, he will undoubtedly bring joy and confidence to the patients and medical personnel
+      short_text : Reachy can replace the mechanical tasks execution, undoubtedly bringing joy and confidence to the patients and medical personnel
       text : "WIP"
 
     - slug : retail
