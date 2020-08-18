@@ -1,7 +1,7 @@
 ---
 title: "About Pollen Robotics"
 date: 2020-03-30T15:52:45+02:00
-draft: false
+draft: true
 description: "We are a team of creative and passionate people, playing together with new technologies to create unique products."
 image: "/img/company/team/les_kooks.jpg"
 ---
