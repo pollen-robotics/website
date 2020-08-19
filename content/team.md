@@ -7,20 +7,20 @@ image: "/img/company/team/les_kooks.jpg"
 ---
 
 ## At the start of it all...
-Pollen robotics was founded in 2016 by Matthieu and Pierre, two former developmental robotics lab researchers from the Flowers team at reknown French research center INRIA. 
+Pollen Robotics was founded in 2016 by Matthieu and Pierre, two former developmental robotics lab researchers from the Flowers team at reknown French research center INRIA. 
 
 With more than 10 years of experience in AI and robotics, as well as great successes such as [Poppy](https://www.youtube.com/watch?v=P15V3UwmXnc), Pierre and Matthieu created Reachy, an accessible platform for exploring AI and robotics.
 
 
 
 ## What we stand for
-User interaction is at the heart of our design: our robots are able to evolve in a complex and unconstrained world where man/robot understanding and mutual acceptance are necessary.
+User interaction is at the heart of our design: our robots are able to evolve in a complex and unconstrained world where man-robot understanding and mutual acceptance are necessary.
 
 
-Pretty much everything we make is open-source. Open software, open hardware, open data...We aim to foster knowledge-sharing in the community to kick-start the AI revolution.
+Pretty much everything we make is open-source. Open software, open hardware, open data... We aim at fostering knowledge sharing in the community to kick-start the AI revolution.
 
 
-We bring simple, elegant and user-friendly design to our customers so they stay focused on their very own application of AI robotics.
+We bring simple, elegant and user-friendly design to our customers so they can stay focused on their own applications of AI robotics.
 
 
 
