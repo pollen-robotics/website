@@ -340,12 +340,16 @@
         <div class="card">
           <div class="card-body">
             <pre><code class="python highlight">
-              import Reachy
-              
-              reachy.say_hello()
-              reachy.right_arm.wave()
-              
-              reachy.motors.position = 12
+import Reachy
+
+reachy = Reachy(....)
+
+reachy.say_hello()
+
+reachy.right_arm.wave()
+
+reachy.right_arm.gripper.close()
+
             </code></pre>
             <h4 class="card-title">Easy to use Python API</h4>
             <p class="card-text">We provide an accessible and complete Python library to easily program Reachy.</p>
