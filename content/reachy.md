@@ -15,19 +15,19 @@ domains:
       Reachy is made by former researchers with the will of providing the perfect tool to collaborate on scientific challenges in AI and robotic. 
 
 
-      Reachy is fully open source and include standard AI tools to be an easy platform for researchers to perform experiment and share their work with the community. 
+      Reachy is fully open-source and include standard AI tools to perform as an easy platform for researchers to carry out experiment and share their work with the community. 
 
       "
 
     - slug : healtcare
-      title : HEALTCARE
+      title : HEALTHCARE
       icon : fa-clinic-medical
       color : red
       short_text : Reachy can replace the mechanical tasks execution, undoubtedly bringing joy and confidence to the patients and medical personnel
       text : "
 #### Build new health service with Reachy
       
-Reachy can replace the mechanical tasks execution. But what is important, he will undoubtedly bring joy and confidence to the patients and medical personnel. 
+Reachy can replace the mechanical tasks execution, undoubtedly bringing joy and confidence to the patients and medical personnel. 
 
 ##### Where?
 
@@ -36,7 +36,7 @@ welcome desk / entrance of a public event, hospitals, medical enterprises, old a
 
 ##### Application examples
 
-- anti-covid measures with mask detection, masks distribution and temperature measurement
+- Anti-covid19 measures with mask detection, masks distribution and temperature measurement
 
 - Provide disabled people a robotic arm to help them manipulate object
 
@@ -62,7 +62,7 @@ shopping malls, business centers, conference halls, restaurants, hotels, cruises
 
 ##### Application examples
 
-Use a reachy to create new experiences with your customer:
+Employ Reachy to create new experiences with your customer:
 
 - a barista serving coffee / wine
 
@@ -82,9 +82,9 @@ Use a reachy to create new experiences with your customer:
       text : "
 #### Bringing Reachy into your educational process will let your University stand out in the crowd. 
 
-Make the experience of your students unconventional, empowering them with the state-of-the-art knowledge. Reachy merges in one easy to use platform all modern engineer skills: programation, mechanics, electronics, 3D printing, machine learning and so on.
+Make the experience of your students unconventional, empowering them with the state-of-the-art knowledge. Reachy merges in one easy to use platform to train all modern engineer skills: programming, mechanics, electronics, 3D printing, machine learning, virtual reality and so on.
 
-Reachy is fully open source, he gives you all the freedom to show how things work!
+Reachy is fully open-source, he gives you all the freedom to show how things work!
 
 
 ##### Where? 
@@ -93,11 +93,11 @@ universities, research laboratories, innovation centres, technical courses, prep
 
 ##### Application examples
 
-- Create transdisciplanary student group project to develop new applications on Reachy or modify him to extend his abilities.
+- Create transdisciplanary student group project to develop new applications on Reachy or modify him to extend his abilities
 
 - Teach programming and machine learning with a stimulating object
 
-- Teach state of the art engineering skills with a open access to software files and CAD design
+- Teach state of the art engineering skills with an open access to software files and CAD design
 
       "
 
@@ -138,7 +138,7 @@ Assist your visitor:
 - flyer distribution
 
 
-Create unexpected experience by challenging your visitors to win Reachy in tic-tac-toe, rock-paper-scissors, other game of your choice.
+Create an unexpected experience by challenging your visitors to win Reachy in tic-tac-toe, rock-paper-scissors, other game of your choice.
         "
 ---
 
