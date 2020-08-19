@@ -27,11 +27,11 @@ domains:
       text : "
 #### Build new health service with Reachy
       
-Reachy can replace the mechanical tasks execution, undoubtedly bringing joy and confidence to the patients and medical personnel. 
+Reachy is accurate, never-tired, always in a good mood. A perfect social assistant for people in need
 
 ##### Where?
 
-welcome desk / entrance of a public event, hospitals, medical enterprises, old and dependent people accommodation establishments, retirement houses, sign language institutions etc 
+welcome desk, hospitals, medical enterprises, old and dependent people accommodation establishments, retirement houses, sign language institutions etc 
 
 
 ##### Application examples
@@ -70,7 +70,7 @@ Employ Reachy to create new experiences with your customer:
 
 - a welcome officer providing for instructions, useful tips
 
-- an adorable companion playing tic-tac-toe, rock-paper-scissors, other game of your choice
+- an adorable companion playing tic-tac-toe, rock-paper-scissors, other game of your choice.
 
       "
 
@@ -82,7 +82,9 @@ Employ Reachy to create new experiences with your customer:
       text : "
 #### Bringing Reachy into your educational process will let your University stand out in the crowd. 
 
-Make the experience of your students unconventional, empowering them with the state-of-the-art knowledge. Reachy merges in one easy to use platform to train all modern engineer skills: programming, mechanics, electronics, 3D printing, machine learning, virtual reality and so on.
+Make the experience of your students unconventional, empowering them with the state-of-the-art knowledge. 
+Reachy merges in one easy to use platform to train all modern engineer skills: programming, mechanics, electronics, 3D printing, machine learning, virtual reality and so on.
+
 
 Reachy is fully open-source, he gives you all the freedom to show how things work!
 
@@ -93,11 +95,12 @@ universities, research laboratories, innovation centres, technical courses, prep
 
 ##### Application examples
 
+
 - Create transdisciplanary student group project to develop new applications on Reachy or modify him to extend his abilities
 
 - Teach programming and machine learning with a stimulating object
 
-- Teach state of the art engineering skills with an open access to software files and CAD design
+- Teach state of the art engineering skills with an open access to software files and CAD design.
 
       "
 
@@ -110,7 +113,8 @@ universities, research laboratories, innovation centres, technical courses, prep
 #### Want to be perceived as the most progressive and innovative event of the year? 
 
 
-Install Reachy into the events you or your partners organize. Advertise your product or service next to Reachy, build your image of a high-tech company seeing into the future.
+Install Reachy into the events you or your partners organize. 
+Advertise your product or service next to Reachy, build your image of a high-tech company seeing into the future.
  
 
 ##### Where? 
@@ -121,7 +125,7 @@ event halls, exhibitions and salons, conference halls, showrooms etc
 ##### Application examples
 
 
-Add anti-covid measures in your event with:  
+Anti-covid measures for your event:  
 
 - mask detection
 
@@ -138,7 +142,8 @@ Assist your visitor:
 - flyer distribution
 
 
-Create an unexpected experience by challenging your visitors to win Reachy in tic-tac-toe, rock-paper-scissors, other game of your choice.
+
+Create an unexpected experience by challenging your visitors to win against Reachy in tic-tac-toe, rock-paper-scissors, other game of your choice.
         "
 ---
 
