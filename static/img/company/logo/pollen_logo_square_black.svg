@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 755 845" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-991.799)">
+        <g id="Artboard1" transform="matrix(0.38987,0,0,0.484237,0,524.944)">
+            <rect x="0" y="964.103" width="1934.32" height="1743" style="fill:none;"/>
+            <g transform="matrix(2.56496,0,0,2.0651,0,964.103)">
+                <g transform="matrix(1.97062,0,0,1.97062,-128.15,-79.7889)">
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M0,56.094L36.382,147.406L97.158,42.549L0,56.094Z" style="fill:rgb(253,214,137);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M97.158,0L0,56.094L97.158,42.549L97.158,0Z" style="fill:rgb(96,128,190);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M0,168.282L97.158,224.375L36.382,147.406L0,168.282Z" style="fill:rgb(241,136,127);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M0,168.282L36.382,147.406L0,56.094L0,168.282Z" style="fill:rgb(57,101,129);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M97.157,42.548L36.382,147.407L157.932,147.407L97.157,42.548Z" style="fill:rgb(119,187,185);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M157.933,147.406L194.315,56.094L97.158,42.549L157.933,147.406Z" style="fill:rgb(241,136,127);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M97.158,0L97.158,42.549L194.315,56.094L97.158,0Z" style="fill:rgb(57,101,129);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M36.382,147.406L97.158,224.375L157.933,147.406L36.382,147.406Z" style="fill:rgb(96,128,190);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M97.158,224.375L194.315,168.282L157.933,147.406L97.158,224.375Z" style="fill:rgb(57,101,129);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,156.189,60.0781)">
+                        <path d="M157.933,147.406L194.315,168.282L194.315,56.094L157.933,147.406Z" style="fill:rgb(253,214,137);fill-rule:nonzero;"/>
+                    </g>
+                </g>
+                <g transform="matrix(1,0,0,1,-22.2088,-28.6853)">
+                    <g transform="matrix(1.48468,0,0,1.48468,-699.035,132.018)">
+                        <text x="507.009px" y="374.221px" style="font-family:'Montserrat-ExtraBold', 'Montserrat';font-weight:800;font-size:106.861px;">POLLE</text>
+                        <text x="878.352px" y="374.221px" style="font-family:'Montserrat-ExtraBold', 'Montserrat';font-weight:800;font-size:106.861px;">N</text>
+                    </g>
+                    <g transform="matrix(1.20408,0,0,1.20408,-562.136,356.688)">
+                        <text x="507.009px" y="374.221px" style="font-family:'Montserrat-ExtraLight', 'Montserrat';font-weight:275;font-size:106.861px;">ROBO<tspan x="841.699px " y="374.221px ">T</tspan>IC<tspan x="1007.65px " y="374.221px ">S</tspan></text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

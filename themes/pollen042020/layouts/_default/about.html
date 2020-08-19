@@ -1,0 +1,166 @@
+{{ define "header"}}
+
+<div class="container"> 
+    <div class="row mb-5">
+        <div class="col-lg-7 order-lg-0 order-2">
+            <h1>{{.Title}} </h1>
+
+            <p class="lead">Founded in 2016 by former researchers, Pollen Robotics gathers talented and independent-minded people in a mission-driven company: providing accessible and open source products and applications that bring AI and Robotics in our daily life.</p>
+
+          <div class="row justify-content-center text-center">
+            <div class="col-md-6">
+                <a class="btn btn-link" href="/reachy" role="button">Discover our product</a>
+            </div>
+            <div class="col-md-6">
+                <a class="btn btn-link" href="#ethics" role="button">our ethics</a>
+            </div>
+          </div>
+
+    </div> 
+    <div class="col-lg-5 text-center">
+      <img src="{{.Params.image}}" class="img-fluid" width="300px" alt="">
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+
+{{ define "main" }}
+
+<div class="container-fluid text-center">
+    <img src="/img/reachy/reachy_working_banner.jpg" class="img-fluid" alt="workshop reachy">
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <h2>From the Lab to the real world</h2>
+
+        <p class="lead">
+            Pollen Robotics was founded by Matthieu and Pierre, two former developmental robotics lab researchers in the <a href="https://flowers.inria.fr/" target="_blank">Flowers team</a> from the reknown French research center <a href="https://www.inria.fr/fr" target="_blank">Inria</a>.
+        </p>
+
+
+        <p class="lead">
+            Working together for more than 10 years, Pierre and Matthieu have always been motivated by making robots accessible and useful in the real world. This goal lead them to several worldwide sucesses such as <a href="https://www.poppy-project.org/en/">Poppy, the first 3D printed open source humanoid robot</a>.
+        </p>
+
+      </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="row p-4">
+          <div class="col p-2"><img class="img-fluid mx-auto" src="/img/company/history/ergorobot.jpg"> </div>
+          <div class="col p-2"><img class="img-fluid mx-auto" src="/img/company/history/poppy.jpg"></div>
+          <div class="col p-2"><img class="img-fluid mx-auto" src="/img/company/history/pierre_matthieu.jpg"> </div>
+          <div class="col p-2"><img class="img-fluid mx-auto" src="/img/company/history/pierre_nao.jpg"> </div>
+      </div>
+  </div>
+  </div>
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <h2>What we do</h2>
+        <p class="lead">User interaction is at the heart of our design: our robots are able to evolve in a complex and unconstrained world where man-robot understanding and mutual acceptance are necessary.
+        
+        </p>
+        <p class="lead">
+        We bring simple, elegant and user-friendly design to our customers so they can stay focused on their own applications of AI robotics.</p>
+
+      </div>
+    </div>
+  
+</div>
+
+
+<div class="container-fluid text-center">
+    <img src="/img/company/workshop_working.jpg" class="img-fluid" alt="workshop reachy">
+</div>
+
+<div class="container" id="ethics">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <h2>Ethics</h2>
+        <p class="lead">Pollen Robotics is driven by making our society a better place for humans. It's not nice words written on our toilet wall, it's actual actions we take everydays:</p>
+
+        <ul>
+            <li>We make our knowledge and technologies freely accesible to everyone under open source licenses.</li>
+            <li>We design our product to be durable and reparable, our planet is already full of trash.</li>
+            <li>We produce locally and with conditions that respect the workers.</li>
+            <li>We foster open-source development by offering a 50% discount on our services for open source project</li>
+            <li>We make our service 100% Free for projects protecting the environnement and open source.</li>
+            <li>We refuse any military funding, sorry pewpew guys ¯\_(ツ)_/¯</li>
+            <li>We trust our people, employees are autonomous, they are free to work the way they want and we encourage them to take the time to learn new skills.</li>
+        </ul>
+
+      </div>
+    </div>
+  
+</div>
+
+
+<div class="container-fluid text-center">
+    <img src="/img/company/surf_banner.jpg" class="img-fluid" alt="workshop reachy">
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-10 text-center">
+          <h2>Our team now</h2>
+          <p class="lead">We are a growing team of talented people working together to create new usages in the real world with robots and AI.</p>
+        </div>
+      </div>
+
+    <div class="row row-cols-lg-4 row-cols-2 team">
+        {{range $.Site.Data.team.people }}
+        <div class="col opensource-card">
+            <div class="card">
+              <img src="{{ .photo }}" class="card-img-top" alt="{{.title}} image">
+              <div class="card-body">
+                <h5 class="card-title">{{ .name }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted"> <em> {{ .title }}</em></h6>
+                <p class="card-text">{{ .comment }}</p>
+              </div>
+              <div class="card-footer">
+                
+                <ul class="list-group list-group-horizontal">
+                    {{range .social}}      
+                    <li class="list-group-item border-0 p-0 mb-2">
+                        <a href="{{.src}}" target="_blank" ><i class="fab fa-{{.name}} icon-social-black {{.name}}"></i></a>
+                    </li>
+                    {{end}}
+                    
+                </ul>
+              </div>
+            </div>
+          </div>
+        {{end}}
+    </div>
+</div>
+<div class="container"> 
+    <div class="row mb-5">
+        <div class="col-lg-6 order-lg-0 order-2">
+            <h2>You want to join us?</h2>
+          <span class="lead">
+            <p>We have no open position right now but stitation change fast in a startup. Do not hesitate to contact us and explain what you have achieved.</p>
+          </span>
+
+    </div> 
+    <div class="col-lg-6 text-center">
+      <img src="/img/company/team/les_kooks.jpg" class="img-fluid" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+{{ end }}
