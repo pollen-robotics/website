@@ -19,7 +19,7 @@ domains:
 
       "
 
-    - slug : healtcare
+    - slug : healthcare
       title : HEALTHCARE
       icon : fa-clinic-medical
       color : red
