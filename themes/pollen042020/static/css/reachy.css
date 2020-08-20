@@ -1,16 +1,28 @@
 
+.container .reachy-header {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 .reachy-header .list-group-item {
     background-color: transparent;
     border: 0px;
     border-radius: 0;
 }
 
-/* .reachy-nav {
-    border-bottom: solid 1px;
-    border-color: grey;
-} */
+.reachy-nav {
+    /* border-bottom: solid 1px;
+    border-color: grey; */
+    /* box-shadow: 0 4px 2px -2px lightgrey; */
+}
 .reachy-nav .container{
     height: 70px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .reachy-nav .container{
+        height: 40px;
+    }
 }
 
 
