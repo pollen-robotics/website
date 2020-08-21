@@ -23,13 +23,13 @@
     comment = "Software architect for simple yet powerful robotic API"
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/matthieulapeyre/"
+        src = "https://www.linkedin.com/in/pierrerouanet/"
     [[people.social]]
         name = "twitter"
-        src = "https://twitter.com/matth_lapeyre"
+        src = "https://twitter.com/RouanetPierre"
     [[people.social]]
         name = "github"
-        src = "https://github.com/matthieu-lapeyre"
+        src = "https://github.com/pierre-rouanet"
 
 [[people]]
     name = "Elsa Kervella"
@@ -39,13 +39,11 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/matthieulapeyre/"
+        src = "https://www.linkedin.com/in/elsakervella/"
     [[people.social]]
         name = "twitter"
-        src = "https://twitter.com/matth_lapeyre"
-    [[people.social]]
-        name = "github"
-        src = "https://github.com/matthieu-lapeyre"
+        src = "https://twitter.com/elsa_kervella"
+
 
 [[people]]
     name = "Augustin Crampette"
@@ -55,13 +53,10 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/matthieulapeyre/"
-    [[people.social]]
-        name = "twitter"
-        src = "https://twitter.com/matth_lapeyre"
+        src = "https://www.linkedin.com/in/augustin-crampette-137bb5177/"
     [[people.social]]
         name = "github"
-        src = "https://github.com/matthieu-lapeyre"
+        src = "https://github.com/augustin-crampette"
 
 [[people]]
     name = "Ilona Ambrutseva"
@@ -71,13 +66,8 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/matthieulapeyre/"
-    [[people.social]]
-        name = "twitter"
-        src = "https://twitter.com/matth_lapeyre"
-    [[people.social]]
-        name = "github"
-        src = "https://github.com/matthieu-lapeyre"
+        src = "https://www.linkedin.com/in/ilona-amburtseva-721561125/"
+
 
 [[people]]
     name = "Simon Le Goff"
@@ -87,13 +77,10 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/matthieulapeyre/"
-    [[people.social]]
-        name = "twitter"
-        src = "https://twitter.com/matth_lapeyre"
+        src = "https://www.linkedin.com/in/simon-le-goff-5091b5134/"
     [[people.social]]
         name = "github"
-        src = "https://github.com/matthieu-lapeyre"
+        src = "https://github.com/simheo"
 
 [[people]]
     name = "Gaëlle Lannuzel"
@@ -103,13 +90,10 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/matthieulapeyre/"
-    [[people.social]]
-        name = "twitter"
-        src = "https://twitter.com/matth_lapeyre"
+        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
     [[people.social]]
         name = "github"
-        src = "https://github.com/matthieu-lapeyre"
+        src = "https://github.com/glannuzel"
 
 [[people]]
     name = "Marcel"
