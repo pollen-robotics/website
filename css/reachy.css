@@ -68,6 +68,16 @@
     background-color: transparent;
 }
 
+.reachy-cards .card pre{
+    margin: 0px;
+}
+
+@media screen and (max-width: 601px) {
+    .reachy-cards .card{
+        margin-bottom: 40px;
+    }
+}
+
 .reachy-cards .card-body{
  padding: 10px;
 }
