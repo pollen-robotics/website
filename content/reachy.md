@@ -31,7 +31,7 @@ Reachy is accurate, never-tired, always in a good mood. A perfect social assista
 
 ##### Where?
 
-welcome desk, hospitals, medical enterprises, old and dependent people accommodation establishments, retirement houses, sign language institutions etc 
+welcome desk, hospitals, medical enterprises, dependent and elderly people accommodation establishments, retirement houses, sign language institutions etc 
 
 
 ##### Application examples
