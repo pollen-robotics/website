@@ -96,7 +96,7 @@ universities, research laboratories, innovation centres, technical courses, prep
 ##### Application examples
 
 
-- Create transdisciplanary student group project to develop new applications on Reachy or modify him to extend his abilities
+- Create transdisciplinary student group project to develop new applications on Reachy or modify him to extend his abilities
 
 - Teach programming and machine learning with a stimulating object
 
