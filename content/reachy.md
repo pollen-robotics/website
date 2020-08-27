@@ -126,7 +126,7 @@ event halls, exhibitions and salons, conference halls, showrooms etc
 ##### Application examples
 
 
-Anti-covid measures for your event:  
+Health protection measures for your event:  
 
 - mask detection
 
