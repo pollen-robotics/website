@@ -37,7 +37,7 @@ welcome desk, hospitals, medical enterprises, dependent and elderly people accom
 
 ##### Application examples
 
-- Anti-covid19 measures with mask detection, masks distribution and temperature measurement
+- Health protection measures with mask detection, masks distribution and temperature measurement
 
 - Provide disabled people a robotic arm to help them manipulate object
 
