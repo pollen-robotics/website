@@ -1,6 +1,6 @@
 baseURL = "https://www.pollen-robotics.com/"
 languageCode = "en-us"
-title = "Pollen Robotics website"
+title = "Reachy by Pollen Robotics"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 googleAnalytics = "UA-164958440-1"
 
@@ -8,7 +8,7 @@ theme = "pollen042020"
 relativeURLs = true
 
 [params]
-description = "Pollen Robotics is a startup building open source interactive robots and artificial intelligences"
+description = "Pollen Robotics is a startup building open source interactive robots based on artificial intelligence"
 brand = "Pollen Robotics"
 
 [markup]
