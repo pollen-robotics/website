@@ -13,10 +13,10 @@ domains:
       text : "
       #### Explore new horizons with Reachy
 
-      Reachy is made by former researchers with the will of providing the perfect tool to collaborate on scientific challenges in AI and robotic. 
+      Reachy is created by former researchers with the aim to provide the perfect tool to collaborate on scientific challenges in AI and robotics. 
 
 
-      Reachy is fully open-source and include standard AI tools to perform as an easy platform for researchers to carry out experiment and share their work with the community. 
+      Reachy is fully open-source and includes standard AI tools to perform as an easy platform for researchers to carry out experiments and share their work with the community. 
 
       "
 
