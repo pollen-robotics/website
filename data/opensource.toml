@@ -56,7 +56,7 @@
     category = "Hardware"
     source = "https://cad.onshape.com/documents/5a9e7c88f6e1068df540bf7a/"
     image = "/img/opensource/onshape_head_module.jpg"
-    description = "CAO models of the reachy head with its cute antennas"
+    description = "CAO models of the Reachy head with its cute antennas"
 
 [[projet]]
     title = "Reachy Trunk Module"
@@ -66,7 +66,7 @@
     category = "Hardware"
     source = "https://cad.onshape.com/documents/0306aa0a644dba7cf10899a8/"
     image = "/img/opensource/onshape_trunk_module.jpg"
-    description = "CAO models of the reachy trunk."
+    description = "CAO models of the Reachy trunk."
 
 [[projet]]
     title = "Reachy Gripper Module"
