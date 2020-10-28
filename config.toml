@@ -1,6 +1,6 @@
 baseURL = "https://www.pollen-robotics.com/"
 languageCode = "en-us"
-title = "Reachy by Pollen Robotics"
+title = "Reachy by Pollen Robotics, an open source programmable humanoid robot"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 googleAnalytics = "UA-164958440-1"
 
