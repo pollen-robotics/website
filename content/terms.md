@@ -1,6 +1,6 @@
 ---
 title: "General terms and conditions of sales"
-description: ""
+description: "Buy open source humanoid robot Reachy"
 date: 2020-02-24T14:58:28+01:00
 draft: false
 ---
