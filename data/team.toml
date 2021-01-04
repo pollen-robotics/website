@@ -58,16 +58,6 @@
         name = "github"
         src = "https://github.com/augustin-crampette"
 
-[[people]]
-    name = "Ilona Ambrutseva"
-    title = "Business developer"
-    photo = "/img/company/team/ilona_ambrutseva.jpg"
-    academic = "Mechatronics"
-    comment = ""
-    [[people.social]]
-        name = "linkedin"
-        src = "https://www.linkedin.com/in/ilona-amburtseva-721561125/"
-
 
 [[people]]
     name = "Simon Le Goff"
