@@ -1,6 +1,6 @@
 ---
 title: "Discover Reachy, a robotic platform based on AI"
-description: "Reachy is an open source interactive Python-programmable humanoid robot"
+description: "Reachy is an open source interactive Python-programmable humanoid platform"
 date: 2020-03-30T15:52:45+02:00
 draft: false
 layout: reachy
