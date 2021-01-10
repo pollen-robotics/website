@@ -177,7 +177,21 @@
         <div class="col-12">
             <h2>Discover our latest articles</h2>
             <div class="card-deck">
-                {{range first 2 $.Site.Data.blog.blog }}
+                    {{range first 2 $.Site.Data.blog.blog }}
+                    <div class="card">
+                        <img class="card-img-top" src="{{ .image }}" alt="{{.journal}} logo">
+                        <div class="card-body">
+                            <h3 class="card-title">{{.title}}</h3>
+                            <p class="card-text lead">{{.extract}}</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-link" href="{{.source}}" target="_blank" role="button">read the full article &#8599;</a>
+                        </div>
+                    </div>
+                    {{end}}
+            </div>
+            <div class="card-deck pt-5">
+                {{range last 2 $.Site.Data.blog.blog }}
                 <div class="card">
                     <img class="card-img-top" src="{{ .image }}" alt="{{.journal}} logo">
                     <div class="card-body">
@@ -189,7 +203,7 @@
                     </div>
                 </div>
                 {{end}}
-            </div>
+        </div>
         </div>
     </div>
     
