@@ -1,6 +1,6 @@
 ---
-title: "Open source robots and AI made for open minded humans"
-description: "Pollen Robotics brings the potential of new technologies in accessible and ethic products"
+title: "Reachy is back at CES!"
+description: "with new hardware, new software and the first ever commercially available VR teleoperation app on a humanoid."
 date: 2020-03-30T15:52:45+02:00
 draft: false
 ---
