@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col-lg-9">
             <h1>{{.Title}}</h1>
-            <p class="lead">{{.Params.Description}}</p>
+            <p class="lead">{{.Params.Description | markdownify}}</p>
         </div>
     </div>
     
