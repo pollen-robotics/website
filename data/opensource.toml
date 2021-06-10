@@ -4,7 +4,7 @@
     techno = "Python"
     licence = "Apache 2.0"
     category = "Software"
-    source = "https://github.com/pollen-robotics/reachy"
+    source = "https://github.com/pollen-robotics/reachy-sdk"
     image = "/img/opensource/reachy_software.jpg"
     description = "Python 3 library used to program Reachy and develop your own application"
 
