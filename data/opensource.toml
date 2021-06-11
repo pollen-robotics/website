@@ -94,8 +94,8 @@
     techno = "Unity"
     licence = "Apache 2.0"
     category = "Software"
-    source = "https://github.com/pollen-robotics/reachy-docs"
-    image = "/img/opensource/reachy_documentation.jpg"
+    source = "https://github.com/pollen-robotics/reachy-2021-docs"
+    image = "/img/opensource/reachy_documentation_2021.jpg"
     description = "Overall documentation for using Reachy."
 
 
