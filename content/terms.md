@@ -1,134 +1,62 @@
 ---
 title: "General terms and conditions of sales"
-description: "Buy open source humanoid robot Reachy"
+description: "Purchasing Reachy open source humanoid robot"
 date: 2020-02-24T14:58:28+01:00
 draft: false
 ---
 
 ## 1. Acceptance of the conditions
 
-The present general terms and conditions of sale govern the
-contractual relations between Pollen Robotics and its customers.
-The customer acknowledges having read, at the time of placing the
-order, the general sales conditions attached to the quotation and
-expressly declares to accept them without reservation. In the
-absence of special conditions of sale, these conditions shall
-prevail over any other provision appearing in any other document.
+The present general terms and conditions of sale govern the contractual relations between Pollen Robotics and its customers. The customer acknowledges having read, at the time of placing the order, the general sales conditions attached to the quotation and expressly declares to accept them without reservation. In the absence of special conditions of sale, these conditions shall prevail over any other provision appearing in any other document.
 
 ## 2. Products and conformity
 
-The products are sold as new. Pollen Robotics undertakes to ensure
-that the product delivered complies as closely as possible with
-the description on the product presentation page and the
-associated documentation, particularly in terms of technical
-specifications. The visuals displayed on these documents are not
-contractual. All orders placed with Pollen Robotics are intended
-for use by the customer. Customers or recipients of the products
-shall refrain from any partial or total resale of the products,
-unless they have signed a distribution contract with Pollen
-Robotics.
+The products are sold as new. Pollen Robotics undertakes to ensure that the product delivered complies as closely as possible with the description on the product presentation page and the associated documentation, particularly in terms of technical specifications (https://docs.pollen-robotics.com/) The visuals displayed on these documents are not contractual. All orders placed with Pollen Robotics are intended for use solely by the customer. Customers or recipients of the products shall refrain from any partial or total resale of the products, unless they have signed a distribution contract with Pollen Robotics.
 
 ## 3. Availability
 
-Shipments take place throughout the year according to the date of
-arrival of orders, subject to technical possibilities and weather
-conditions within the limits of the component stocks available on
-the market.
+Shipments take place throughout the year according to the date of arrival of orders, subject to technical possibilities, weather conditions and conditions related to public health crisis within the limits of the component stocks available on the market.
 
 ## 4. Order
 
-The order of Pollen Robotics products is considered as validated
-upon receipt by electronic or postal mail of the estimate duly
-dated and signed. Pollen Robotics reserves the right to cancel any
-order from a customer in case of suspicion of fraud.
+The order of Pollen Robotics products is considered as validated upon receipt by electronic or postal mail of the estimate duly dated and signed. Pollen Robotics reserves the right to cancel any order from a customer in case of suspicion of fraud.
 
 
-The information given by the buyer when taking the order is
-binding on the latter. In case of error or incomplete information
-in the wording of the addressee's details, Pollen Robotics cannot
-be held responsible for the impossibility to make the delivery
-within the delays indicated at the time of the order.
+The information given by the buyer when taking the order is binding on the latter. In case of error or incomplete information in the wording of the addressee’s details, Pollen Robotics cannot be held responsible for the impossibility to make the delivery within the delays indicated at the time of the order.
 
-In the case of litigation in progress and out of payment - such as
-late delivery, quality of the delivered product, the company
-Pollen Robotics can be brought to revise with the customer the
-conditions of the treatment of a new order.
 
-By returning the signed quotation, which is valid for validation
-of the order, you declare that you accept these General Terms and
-Conditions of Sale in full and without reserve, as well as the
-terms of payment appearing on the quotation. Any arrangement or
-special clause of the customer that does not comply with these
-General Terms and Conditions of Sale shall only be binding for the
-company Pollen Robotics if it has been accepted by the customer in
-writing.
+In the case of litigation in progress and out of payment - such as late delivery, quality of the delivered product, the company Pollen Robotics can be brought to revise with the customer the conditions of the treatment of a new order.
+
+
+By returning the signed quotation, which is valid for validation of the order, you declare that you accept these General Terms and Conditions of Sale in full and without reserve, as well as the terms of payment appearing on the quotation. Any arrangement or special clause of the customer that does not comply with these General Terms and Conditions of Sale shall only be binding for the company Pollen Robotics if it has been accepted by the customer in writing.
 
 ## 5. Invoicing and Payment
 
-According to the terms of payment indicated on the quotation, the
-customer undertakes to pay for the order in two instalments: 30%
-when the order is placed and 70% once the product has been
-received by the customer. The first invoice is sent by e-mail. The
-balance invoice is sent either by post with the products delivered
-to the address you will have specified when ordering and mentions
-only the items delivered, or by e-mail. If the delivery is made in
-several times, you will have several balance invoices for the same
-order. The customer must comply with the terms of payment in order
-to send us the payment.
+According to the terms of payment indicated on the quotation, the customer undertakes to pay for the order in two instalments: 30% when the order is placed and 70% once the product has been received by the customer. The first invoice is sent by e-mail. The balance invoice is sent either by post with the products delivered to the address you will have specified when ordering and mentions only the items delivered, or by e-mail. If the delivery is made in several times, you will have several balance invoices for the same order. The customer must comply with the terms of payment in order to send us the payment.
 
 ## 6. Method of Payment
 
-Payments are made exclusively by bank transfer to the account of
-the company Pollen Robotics, whose details are specified on the
-invoices. Pollen Robotics reserves the right to modify the terms
-of payment depending on the customer.
+Payments are made exclusively by bank transfer to the account of the company Pollen Robotics, whose details are specified on the invoices. Pollen Robotics reserves the right to modify the terms of payment depending on the customer.
 
 ## 7. Shipping and delivery
 
-After signature of the quotation, Pollen Robotics company commits
-itself to ship the product within 30 days from receipt of the
-first part of the payment.
+After signature of the quotation, Pollen Robotics company commits to ship the product within 30 days from receipt of the first part of the payment.
 
-The information given by the buyer, at the time of order taking,
-is binding on the buyer: in case of error in the wording of the
-addressee's details, the seller cannot be held responsible for the
-impossibility to deliver the product, or for any additional delays
-caused. The Pollen Robotics company would then be entitled to
-require the payment of a sum corresponding to the expenses
-generated by a second expedition.
 
-The delivery is considered to have been made after the product has
-been handed over to the advertised recipient or to any other
-person authorised to receive it in his place, the recipient's
-signature being proof of this.
+The information given by the buyer, at the time of order taking, is binding on the buyer: in case of error in the wording of the addressee’s details, the seller cannot be held responsible for the impossibility to deliver the product, or for any additional delays caused. The Pollen Robotics company would then be entitled to require the payment of a sum corresponding to the expenses generated by a second expedition.
 
-No refusal of shipment is admitted for advance or late delivery,
-as long as the delivery takes place within 4 weeks before or after
-the desired delivery date (excluding postal delays); and under the
-condition of not compromising the recovery of the article. In
-accordance with the consumer code and in the absence of special
-delivery conditions validated by both parties, Pollen Robotics is
-responsible for the proper delivery of the products and generally
-responsible for the proper execution of the contract.
 
-Thus, except in case of force majeure, the customer will not have
-to prove the fault of other parties in case of poor execution of
-the contract. War, riots, riots, fire, strikes, accidents and the
-impossibility of being supplied are considered as cases of force
-majeure releasing the seller from its obligation to deliver. It is
-the responsibility of the customer to systematically check the
-condition of the package on arrival.
+The delivery is considered to have been made after the product has been handed over to the advertised recipient or to any other person authorised to receive it in his place, the recipient’s signature being proof of this.
 
-In case of damaged package, the customer must notify the carrier
-at the time of delivery, by mentioning reserves, or by refusing to
-accept the goods. The fact that the customer does not make any
-reservations at the time of delivery relieves the seller of any
-responsibility for the external condition of the product or its
-packaging.
 
-Transport and packaging costs are calculated according to the
-destination and the packaging. They are included in the quotation.
-By default, the INCOTERM chosen is EXW.
+No refusal of shipment is admitted for advance or late delivery, as long as the delivery takes place within 4 weeks before or after the desired delivery date (excluding postal delays); and under the condition of not compromising the recovery of the article. In accordance with the consumer code and in the absence of special delivery conditions validated by both parties, Pollen Robotics is responsible for the proper delivery of the products and generally responsible for the proper execution of the contract.
+
+
+Thus, except in case of force majeure, the customer will not have to prove the fault of other parties in case of poor execution of the contract. War, riots, riots, fire, strikes, accidents and the impossibility of being supplied are considered as cases of force majeure releasing the seller from its obligation to deliver. It is the responsibility of the customer to systematically check the condition of the package on arrival.
+
+
+In case of damaged package, the customer must notify the carrier at the time of delivery, by mentioning reserves, or by refusing to accept the goods. The fact that the customer does not make any reservations at the time of delivery relieves the seller of any responsibility for the external condition of the product or its packaging.
+Packaging costs are included in the product prices. Transport costs are not included in the quotation and are to be covered by the customer. By default, the INCOTERM chosen is EXW.
 
 ## 8. Cancellation, Modification, Revocation
 
@@ -164,6 +92,7 @@ expensive shipping costs for the chosen delivery zone. The
 transport costs related to the return of the goods shall be borne
 by the customer.
 
+
 The refund is due within a maximum of 14 days following receipt of
 the items, in the aforementioned condition. The refund is made via
 the same payment method used at the time of purchase. This right
@@ -177,6 +106,7 @@ without taxes. This information is specified by the presence of
 the mention "TTC" (all taxes included) or "HT" (excluding taxes)
 next to the selling price on the product page.
 
+
 The price indicated on the product sheets does not include
 transport. The price indicated in the order confirmation is the
 final price, expressed inclusive of all taxes and including VAT
@@ -186,6 +116,7 @@ conservation of the products, transport and commissioning costs.
 This price does not include any duties and taxes applicable to a
 delivery in the DOM-TOM or in a non-EU member country.
 
+
 These rights and taxes will be due by the customer, and can in no
 case be the subject of a assumption of responsibility by Pollen
 Robotics. The customer undertakes to pay all taxes due on the
@@ -194,14 +125,17 @@ taxes due under the laws of the country or territory of receipt of
 the order. Pollen Robotics disclaims any legal responsibility if
 the payment of taxes was not made by the customer.
 
+
 The company Pollen Robotics reserves the right to modify its
 prices at any time but the products will be invoiced on the basis
 of the tariffs in force at the time of the recording of the orders
 subject to availability at this date and their effective payment.
 
+
 The Pollen Robotics company can propose to its customers punctual
 promotions. The promotions are proposed on fixed dates and on
 limited stocks.
+
 
 The products remain the property of the company Pollen Robotics
 until the complete collection of the price by Pollen Robotics.
@@ -230,8 +164,7 @@ Robotics cannot be held responsible for any indirect damage that
 could occur because of the purchase of the products.
 
 
-This contract is subject to French law. The language of this
-contract is the French language.
+This contract is subject to French law.
 
 
 Pollen Robotics cannot be held responsible for damages of any
@@ -260,29 +193,16 @@ amicable solution.
 
 ## 11. Warranty and after-sales service
 
-The products delivered benefit from a guarantee period as
-indicated on the quotation, starting from the delivery of the
-product. Any proven defect in use or handling of the product will
-result in the cancellation of the guarantee. In case of
-malfunction(s), the customer may request the exchange or
-replacement of the product. However, Pollen Robotics is not
-obliged to replace the product, when repair is possible.
+The products delivered benefit from a guarantee period as indicated on the quotation, starting from the delivery of the product. Any proven defect in use or handling of the product will result in the cancellation of the guarantee. In case of malfunction(s), the customer may request the exchange or replacement of the product. However, Pollen Robotics is not obliged to replace the product, when repair is possible.
 
-In the case of a technical product, the customer shall take
-particular care to check the correct operation of the delivered
-device and to read the documents provided relating to the product.
-In addition, the customer will be able to benefit from online
-assistance to characterize operating problems and possible
-solutions. In any case, Pollen Robotics cannot be held responsible
-for malfunctions or damage caused by use that does not comply with
-the instructions for use
-(<a href="https://pollen-robotics.github.io/reachy-docs/">https://pollen-robotics.github.io/reachy-docs/</a>) or failure to
-comply with the regulatory and legislative provisions in force in
-the country of receipt.
 
-The seller is liable for defects in conformity of the good sold
-under the conditions of articles L. 211-4 and following of the
-Consumer Code and for hidden defects of the good under the
-conditions of articles 1641 and following of the Civil Code.
+Important: Note that the servo motors (brand: Robotis) that are included in the products of Pollen Robotics do not fall under the general warranty as they are considered consumables. It is the responsibility of the end-user to make sure that the products are used according to Pollen Robotics’ guidelines and good practises. For more information on Robotis servo motors’ general conditions for sale, please refer to the manufacturer’s website (only available in French) http://www.robotis.fr/content/3-conditions-generales-de-ventes or contact the manufacturer at contact(a)robotis.fr
+
+
+In the case of purchase of any product, the customer shall take particular care to check the correct operation of the delivered device and to read the documents provided relating to the product. In addition, the customer will be able to benefit from online assistance to characterize operating problems and possible solutions. In any case, Pollen Robotics cannot be held responsible for malfunctions or damage caused by use that does not comply with the instructions for use (https://docs.pollen-robotics.com/), especially the “safety first” section, or failure to comply with the regulatory and legislative provisions in force in the country of receipt.
+
+
+The seller is liable for defects in conformity of the good sold under the conditions of articles L. 211-4 and following of the Consumer Code and for hidden defects of the good under the conditions of articles 1641 and following of the Civil Code.
+
 </p>
 </div>
