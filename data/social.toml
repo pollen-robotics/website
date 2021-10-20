@@ -27,3 +27,8 @@
     site = "facebook"
     name = "Facebook"
     url = "https://www.facebook.com/pollenrobotics/"
+
+[[item]]
+    site = "discord"
+    name = "Discord"
+    url = "https://discord.gg/Kg3mZHTKgs"
