@@ -4,6 +4,8 @@
 
 {{ define "header"}}
 
+
+
 <div class="container">
     <!-- <div class="d-none d-md-block">
         <div class="row justify-content-end px-0 mx-0">
@@ -16,23 +18,22 @@
             </ul>
         </div>
     </div> -->
-        
-    <div class="row">
-        <div class="col-lg-9">
+
+    <div class="row align-items-center">
+
+        <div class="col-lg-6 order-1">
+            <img src="/img/reachy/reachy_mobile_square_yellow.jpg" class="img-fluid" alt="Pollen company members" style="border-radius: 50%;">
+        </div>
+
+        <div class="col-lg-6 order-0 pr-5">
+
             <h1>{{.Title}}</h1>
             <p class="lead">{{.Params.Description | markdownify}}</p>
-        </div>
-    </div>
-    
 
-    <div class="row justify-content-center my-md-3">
-        <div class="col-lg-8">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lRWna6mEMv0" llow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-            
         </div>
+    
+    </div>
+        
         
         <div class="text-center">
             <a class="btn btn-link" href="/reachy" role="button">Discover Reachy &#8594;</a>
@@ -85,7 +86,7 @@
     <div class="row homepage-reachy-section justify-content-between align-items-end">
         
         <div class="col-md-6 col-lg-5 col-xl-5 offset-xl-1 homepage-reachy-text">
-            <h2>Meet Reachy,<br/> our crack-a-smile <br/> open-source robot <br/>  <span class="lead">Starting at 6 990€</span></h2>
+            <h2>Meet Reachy,<br/> our crack-a-smile open-source and fully teleoperable robot <br/> <span class="lead">Starting at €8,990</span></h2>
             
             <p>Reachy is awesome when it comes to interacting with people and manipulating objects.
                 It is built with prepackaged AI and modular robotics so you can kickstart any real-world application.</p>
