@@ -86,6 +86,45 @@
         src = "https://github.com/glannuzel"
 
 [[people]]
+    name = "Steve N'Guyen"
+    title = "R&D Engineer"
+    photo = "/img/company/team/steve_nguyen.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/glannuzel"
+
+[[people]]
+    name = "Jérémy Laville"
+    title = "R&D Engineer"
+    photo = "/img/company/team/jeremy_laville.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/glannuzel"
+
+[[people]]
+    name = "Rémi Fabre"
+    title = "R&D Engineer"
+    photo = "/img/company/team/remi_fabre.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/glannuzel"
+
+[[people]]
     name = "Marcel"
     title = "Chief Laziness Officer"
     photo = "/img/company/team/marcel.jpg"
