@@ -93,10 +93,10 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
+        src = "https://www.linkedin.com/in/stevenguyen/"
     [[people.social]]
         name = "github"
-        src = "https://github.com/glannuzel"
+        src = "https://github.com/SteveNguyen"
 
 [[people]]
     name = "Jérémy Laville"
@@ -106,10 +106,7 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
-    [[people.social]]
-        name = "github"
-        src = "https://github.com/glannuzel"
+        src = "https://www.linkedin.com/in/jeremy-laville-1038b176/"
 
 [[people]]
     name = "Rémi Fabre"
@@ -119,10 +116,10 @@
     comment = ""
     [[people.social]]
         name = "linkedin"
-        src = "https://www.linkedin.com/in/ga%C3%ABlle-lannuzel-6bbb72185/"
+        src = "https://www.linkedin.com/in/remifabre/"
     [[people.social]]
         name = "github"
-        src = "https://github.com/glannuzel"
+        src = "https://github.com/RemiFabre"
 
 [[people]]
     name = "Marcel"
