@@ -32,7 +32,7 @@ By returning the signed quotation, which is valid for validation of the order, y
 
 ## 5. Invoicing and Payment
 
-According to the terms of payment indicated on the quotation, the customer undertakes to pay for the order in two instalments: 30% when the order is placed and 70% once the product has been received by the customer. The first invoice is sent by e-mail. The balance invoice is sent either by post with the products delivered to the address you will have specified when ordering and mentions only the items delivered, or by e-mail. If the delivery is made in several times, you will have several balance invoices for the same order. The customer must comply with the terms of payment in order to send us the payment.
+According to the terms of payment indicated on the quotation, the customer undertakes to pay for the order in two instalments: 50% when the order is placed and 50% once the product has been received by the customer. The first invoice is sent by e-mail. The balance invoice is sent either by post with the products delivered to the address you will have specified when ordering and mentions only the items delivered, or by e-mail. If the delivery is made in several times, you will have several balance invoices for the same order. The customer must comply with the terms of payment in order to send us the payment.
 
 ## 6. Method of Payment
 
