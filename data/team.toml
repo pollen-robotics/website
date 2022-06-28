@@ -122,6 +122,29 @@
         src = "https://github.com/RemiFabre"
 
 [[people]]
+    name = "Fabien Danieau"
+    title = "R&D Engineer"
+    photo = "/img/company/team/fabien_danieau.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/fabiendanieau/"
+    [[people.social]]
+        name = "github"
+        src = "https://github.com/FabienDanieau"
+
+[[people]]
+    name = "Simon Revelly"
+    title = "Product Management"
+    photo = "/img/company/team/simon_revelly.jpg"
+    academic = "Mechatronics"
+    comment = ""
+    [[people.social]]
+        name = "linkedin"
+        src = "https://www.linkedin.com/in/simon-revelly-65b20516/"
+
+[[people]]
     name = "Marcel"
     title = "Chief Laziness Officer"
     photo = "/img/company/team/marcel.jpg"
