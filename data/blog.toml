@@ -1,9 +1,25 @@
 [[blog]]
+    title = "Reachy just gained mobility with an open source omnidirectional mobile base"
+    date = "28-06-22"
+    source = "https://medium.com/pollen-robotics/controlling-a-reachy-robot-in-unity-f3d90d550345"
+    image = "https://miro.medium.com/max/1400/1*y3JpTykiONlLl4VE6IqLPg.png"
+    extract = "Reachy new Unity simulator"
+    author = "Gaëlle Lannuzel"
+    
+[[blog]]
+    title = "Reachy just gained mobility with an open source omnidirectional mobile base"
+    date = "24-06-22"
+    source = "https://medium.com/pollen-robotics/reachy-just-gained-mobility-with-an-open-source-omnidirectional-base-bce9b8e430a8"
+    image = "https://miro.medium.com/max/1400/1*qVvWFqZysbQ3AILlRHC0tw.png"
+    extract = "Reachy and its new mobile base in action"
+    author = "Pierre Rouanet"
+
+[[blog]]
     title = "Orbita is turning heads… literally"
     date = "18-12-20"
     source = "https://medium.com/pollen-robotics/orbita-is-turning-heads-literally-d10d378550e2"
     image = "https://miro.medium.com/max/1000/1*RDlpVxWULHbpCF9oWsdMIQ.png"
-    extract = "how we designed Reachy’s neck based on the Orbita actuator"
+    extract = "How we designed Reachy’s neck based on the Orbita actuator"
     author = "Augustin Crampette"
 
 [[blog]]
