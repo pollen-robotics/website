@@ -187,7 +187,7 @@
         <div class="col-12">
             <h2>Discover our latest articles</h2>
             <div class="card-deck">
-                    {{range first 2 $.Site.Data.blog.blog }}
+                    {{range first 3 $.Site.Data.blog.blog }}
                     <div class="card">
                         <img class="card-img-top" src="{{ .image }}" alt="{{.journal}} logo">
                         <div class="card-body">
@@ -201,7 +201,7 @@
                     {{end}}
             </div>
             <div class="card-deck pt-5">
-                {{range last 2 $.Site.Data.blog.blog }}
+                {{range last 3 $.Site.Data.blog.blog }}
                 <div class="card">
                     <img class="card-img-top" src="{{ .image }}" alt="{{.journal}} logo">
                     <div class="card-body">
